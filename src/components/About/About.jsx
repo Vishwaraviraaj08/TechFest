@@ -5,7 +5,7 @@ import about from "./about.svg";
 const About = () => {
   return (
     <>
-      <section id="about" className={classes.aboutSec}>
+      <section id="about" className={classes.aboutSec} style={{marginTop:'10rem'}}>
         <div className={classes.about}>
           <div className={classes.details}>
             <h3 className={classes.heading}>About</h3>

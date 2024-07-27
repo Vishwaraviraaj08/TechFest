@@ -41,25 +41,17 @@ const Faq = () => {
       <div className={classes.faq}>
         {questions.map((ques, i) => {
           return (
-            <div className={classes.single} onClick={() => toggle(i)}>
-              <div className={classes.question}>{ques.question}</div>
-              <div
-                className={`${
-                  clicked === i ? classes.answer : classes.noAnswer
-                }`}
-              >
-                {ques.answer}
+              <div key={i} className={classes.single} onClick={() => toggle(i)}>
+                <div className={classes.question}>{ques.question}</div>
+                <div
+                    className={`${clicked === i ? classes.answerVisible : classes.answer}`}
+                >
+                  {ques.answer}
+                </div>
+                <span className={classes.btn}>+</span>
               </div>
-              <span className={classes.btn}>+</span>
-            </div>
           );
         })}
-
-        {/* <div className={classes.single}>
-                <div className={classes.question}>How are you?</div>
-                <div className={classes.answer}>I am fine</div>
-                <span className={classes.btn}>+</span>
-            </div> */}
       </div>
     </section>
   );

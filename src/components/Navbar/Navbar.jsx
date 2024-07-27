@@ -182,7 +182,7 @@ const Navbar = () => {
                 onClick={() => setMobile(!mobile)}
 
               >
-                
+
                 Events
                 <FontAwesomeIcon
                   size="sm"

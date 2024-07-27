@@ -161,40 +161,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className={classes.footer_creator_div}>
-        <h4 className={classes.footer_creator}>
-          Website designed and created by{" "}
-          <a
-            href={spiderurl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={classes.footer_a_link}
-          >
-           
-          </a>{" "}
-          {" "}
-          <a
-            href={saurabh}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={classes.footer_a_link}
-          >
-            {" "}
-            @Yash Rasniya
-          </a>{" "}
-          and{" "}
-          <a
-            href={sanyog}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={classes.footer_a_link}
-          >
-            {" "}
-            @Sarthak Joshi
-          </a>{" "}
-          
-        </h4>
-      </div>
+
     </div>
   );
 };

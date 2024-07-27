@@ -18,13 +18,9 @@ import "./App.css";
 
 const App = () => {
   const location = useLocation();
-  const [transition, setTransition] = useState("fade-enter");
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    setTransition("fade-enter");
-    const timer = setTimeout(() => setTransition("fade-enter-active"), 1000);
-    return () => clearTimeout(timer);
   }, [location]);
   const [loading, setLoading] = useState(true);
 
@@ -40,7 +36,7 @@ const App = () => {
             {/*<Popup />*/}
 
             <Navbar/>
-            <div className={transition}>
+
               <Routes location={location} key={location.key}>
                 <Route path="/" element={<Homepage/>}/>
                 <Route path="/events" element={<MainEvents/>}/>
@@ -56,7 +52,6 @@ const App = () => {
                 {/* <Route path="/" element={<Faq />}></Route>  */}
               </Routes>
               <Footer/>
-            </div>
           </>
       )}
     </>
