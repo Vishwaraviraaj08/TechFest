@@ -15,6 +15,8 @@ import ContactUs from "./components/ContactUs/ContactUs";
 import Loading from "./components/common/Loading/Loading";
 import "./App.css";
 import PrevEvent from "./pages/PrevEvent";
+import metallicSound from "./assets/clicksound.mp3";
+import backgroundMusic from "./assets/backgroundMusic.mp3";
 
 
 const App = () => {
@@ -27,6 +29,24 @@ const App = () => {
 
   setTimeout(() => setLoading(false), 3000);
   useEffect(() => {});
+
+
+  useEffect(() => {
+    const playSound = () => {
+      const audio = new Audio(metallicSound);
+      audio.play();
+    };
+
+    document.addEventListener('click', playSound);
+
+    return () => {
+      document.removeEventListener('click', playSound);
+    };
+  }, []);
+
+
+
+
   return (
     <>
       {loading ? (

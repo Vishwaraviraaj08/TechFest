@@ -17,6 +17,7 @@
 }
 .events_container {
   margin-top: 50px;
+  margin-bottom: 5rem;
   background: url(./backGround.svg);
   width: auto;
   /* background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),

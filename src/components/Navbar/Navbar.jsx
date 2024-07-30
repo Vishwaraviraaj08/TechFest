@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { useState } from "react";
 import classes from "./Navbar.module.css";
 
@@ -10,6 +10,7 @@ import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import { HashLink as Link } from "react-router-hash-link";
 import { HashLink } from "react-router-hash-link";
 import { Link as Drop} from "react-scroll";
+import metallicSound from "../../assets/clicksound.mp3";
 
 
 const Navbar = () => {
@@ -18,9 +19,24 @@ const Navbar = () => {
   const [mobile, setMobile] = useState(false);
 
   window.onscroll = () => {
-    isScrolled(window.pageYOffset === 0 ? false : true);
+    isScrolled(window.scrollY !== 0);
     return () => (window.onscroll = null);
   };
+
+
+  useEffect(() => {
+    const playSound = () => {
+      const audio = new Audio("../../assets/clicksound.mp3");
+      audio.play().then(r => console.log(r));
+    };
+
+    document.addEventListener('click', playSound);
+
+    return () => {
+      document.removeEventListener('click', playSound);
+    };
+  }, []);
+
 
   return (
     <header
