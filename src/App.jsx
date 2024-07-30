@@ -8,12 +8,13 @@ import MainEvents from "./components/MainEvents/MainEvents";
 // import Faq from "../src/components/Faq/Faq";
 import Homepage from "./pages/Homepage";
 import SingleEventPage from "./components/SingleEventPage/SingleEventPage";
-import Leaderboard from "./pages/Leaderboard";
+import Leaderboard from "./pages/PrevEvent";
 import AboutPage from "./pages/AboutPage";
 import Register from "./components/common/Register/Register";
 import ContactUs from "./components/ContactUs/ContactUs";
 import Loading from "./components/common/Loading/Loading";
 import "./App.css";
+import PrevEvent from "./pages/PrevEvent";
 
 
 const App = () => {
@@ -37,17 +38,14 @@ const App = () => {
 
             <Navbar/>
 
-              <Routes location={location} key={location.key}>
+              <Routes location={location} key={location.key} >
                 <Route path="/" element={<Homepage/>}/>
                 <Route path="/events" element={<MainEvents/>}/>
                 <Route path="/events/:eventId" element={<SingleEventPage/>}/>
-                <Route path="/leaderboard" element={<Leaderboard/>}/>
+                <Route path="/crescendo23" element={<PrevEvent/>}/>
                 <Route path="/about" element={<AboutPage/>}/>
-                <Route path="/register" element={<Register/>}/>
                 <Route path="/contact" element={<ContactUs/>}/>
-                <Route path="/hidden" element={<Hidden/>}/>
-                {/*   <Route path="/leaderboard/:eventId" element={<Leaderboard />} />
-                <Route path="*" element={<NotFound />}></Route> */}
+                {/*<Route path="*" element={<NotFound />}></Route> *!/*/}
                 {/* <Route path="/" element={<Landing />}></Route>  */}
                 {/* <Route path="/" element={<Faq />}></Route>  */}
               </Routes>

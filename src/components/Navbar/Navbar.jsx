@@ -9,7 +9,6 @@ import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
 import { HashLink as Link } from "react-router-hash-link";
 import { HashLink } from "react-router-hash-link";
-import Logo from "../../assets/Logo.png";
 import { Link as Drop} from "react-scroll";
 
 
@@ -38,7 +37,7 @@ const Navbar = () => {
             duration={600}
           >
             <Link to="/">
-              <img src={Logo} alt="/" className={classes.logo} />
+              <img src={"https://pngimg.com/uploads/smiley/smiley_PNG74.png"} height={"auto"} alt="/" className={classes.logo} />
             </Link>
           </Drop>
         </div>
@@ -102,8 +101,8 @@ const Navbar = () => {
                 duration={600}
                 style={{ color: "white", textDecoration: "none" }}
               >
-                <Link className={classes.homeLink} to="/leaderboard">
-                  Leaderboard
+                <Link className={classes.homeLink} to="/crescendo23">
+                  Crescendo'23
                 </Link>
               </Drop>
             </li>
@@ -207,8 +206,8 @@ const Navbar = () => {
                 duration={600}
                 style={{ color: "white", textDecoration: "none" }}
               >
-                <Link className={classes.homeLink} to="/leaderboard">
-                  Leaderboard
+                <Link className={classes.homeLink} to="/crescendo23">
+                  Crescendo'23
                 </Link>
               </Drop>
             </li>

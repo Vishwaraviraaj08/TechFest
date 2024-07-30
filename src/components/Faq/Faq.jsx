@@ -3,24 +3,24 @@ import classes from "./Faq.module.css";
 
 const questions = [
   {
-    question: "What is URJAA?",
+    question: "What is Flarendo '24?",
     answer:
-      "URJAA 2k24 is the one of biggest Technical event in the history of DYPCOE.",
+      "Flarendo 2k24 is the one of biggest Technical event conducting by IT dept of Sri Sairam Engineering College.",
   },
   {
     question: "What are the Dates and Timings of event?",
     answer:
-      "The event will start at 9AM on 29 March and will be till 31st of March 10 PM",
+      "The event will start at 9AM on 28 August 2024",
   },
   {
     question: "How can I participate in the event?",
     answer:
-      "Explore various events on the URJAA's website and register for the same",
+      "Explore various events on the Flarendo's website (this), select the event and register for the same",
   },
   {
-    question: "Is there any entry fee for URJAA 2k24?",
+    question: "Is there any entry fee for Flarendo '24?",
     answer:
-      "No, there is not any entry fee to explore URJAA 2k24 but to participate in some events you have pay registration fee.",
+      "No, there is not any entry fee to explore Flarendo 2k24 but to participate in some events you have pay registration fee.",
   },
 ];
 

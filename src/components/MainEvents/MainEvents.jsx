@@ -30,7 +30,7 @@ const MainEvents = () => {
         <div className={classes.events_container}>
           
           {eventsData.map((eventData, i) => {
-            if(eventData.eventType=='Tech'){
+            if(eventData.eventType ==='Tech'){
               return <EventCard eventData={eventData} key={i} />;
             }
             

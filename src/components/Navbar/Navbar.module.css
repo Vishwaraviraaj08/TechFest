@@ -38,7 +38,13 @@
 }
 
 .logo {
-  width: 25%;
+  width: 8%;
+}
+
+@media screen and (max-width: 768px){
+  .logo {
+    width: 20%;
+  }
 }
 
 .hamburger {
@@ -167,9 +173,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .logo {
-    width: 30%;
-  }
 
   .nav {
     display: none;

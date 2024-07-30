@@ -11,6 +11,16 @@
   background-size: cover;
   height: 100vh;
   /* margin-top: 400px; */
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 2s ease-out forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .herobox {

@@ -11,7 +11,18 @@
   /* background-image: linear-gradient(to bottom right, #ff00ee, #ff0932); */
 }
 .para {
-  text-align: center;
+  text-align: justify;
+  padding: 3rem;
   color: #fff;
   font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 10vw;
+  }
+  .para {
+    padding: 0.5rem;
+    margin-bottom: 8rem;
+  }
 }

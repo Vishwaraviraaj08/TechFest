@@ -1,19 +1,11 @@
 import React from "react";
-import sambhavLogo from "../../assets/Logo.png";
 import classes from "./Footer.module.css";
 
 // const sambhavitwitter=''
 
-const grabbitinsta = "https://www.instagram.com/it.gopeshwar/";
-const grabbitlinkedin = "https://www.linkedin.com/in/placement-cell-institute-of-technology-gopeshwar-chamoli-uttarakhand-7359a82a1/";
+const insta = "https://www.instagram.com/";
+const linkedin = "https://www.linkedin.com/in/";
 
-const grabbitwebsite = "https://itgopeshwar.ac.in/"
-
-const spiderurl = "https://www.linkedin.com/in/om-gawande/";
-const saurabh = "https://www.linkedin.com/in/saurabh-barde-5b617321a/";
-const sanyog = "https://www.linkedin.com/in/sanyog-mahajan-8288a7204/";
-
-const grabbiturl = "https://www.grabbitdypcoe.in";
 const Footer = () => {
   return (
     <div className={classes.footer_outer}>
@@ -23,54 +15,28 @@ const Footer = () => {
             <div>
               <img
                 className={classes.footer_sambhav_image}
-                src={sambhavLogo}
-                alt="sambhavLogo"
+                src={"https://pngimg.com/uploads/smiley/smiley_PNG74.png"}
+                alt="Logo"
               ></img>
             </div>
             <div>
               {/* <h1 className={classes.footer_sambhav}>SAMBHAV'23</h1> */}
             </div>
           </div>
-          <p className={classes.footer_sambhav_description}>
-            URJAA'24 is One of the Largest Technical festival of Gopeshwar. Let&apos;s
+          <p className={classes.footer_sambhav_description} style={{fontSize:'1.5rem', textAlign:'justify'}}>
+            FLARENDO '24 is One of the Largest Technical festival of Information Technology Department by Sri Sairam ENgineering College. Let&apos;s
             make a Tech move.
           </p>
-          <div className={classes.footer_social_item}>
-  
-            {/* <div>
-              <a
-                href={sambhavtwitter}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={classes.footer_a_link}>
-                <img className={classes.footer_social_link} src="https://img.icons8.com/fluency/48/ffffff/twitter-circled.png" alt="" />
-              </a>  </div> */}
-          </div>
         </div>
         <div className={classes.footer_first}>
-          <div className={classes.footer_sambhav_image_div}>
-            <div>
-              <a
-                href={grabbiturl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={classes.footer_a_link}
-              >
-    
-              </a>
-            </div>
-            <div>
-              {/* <h1 className={classes.footer_sambhav}>GrabBit</h1> */}
-            </div>
-          </div>
+
           <p className={classes.footer_sambhav_description}>
-            Get the latest updates about internships, hackathons, job openings
-            and much more..
+            Get the latest updates about events and much more ..
           </p>
           <div className={classes.footer_social_item}>
             <div>
               <a
-                href={grabbitinsta}
+                href={insta}
                 target="_blank"
                 rel="noopener noreferrer"
                 className={classes.footer_a_link}
@@ -84,7 +50,7 @@ const Footer = () => {
             </div>
             <div>
               <a
-                href={grabbitlinkedin}
+                href={linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
                 className={classes.footer_a_link}
@@ -99,7 +65,7 @@ const Footer = () => {
     
             <div>
               <a
-                href={grabbitwebsite}
+                href={"https://it.sairam.edu.in/"}
                 target="_blank"
                 rel="noopener noreferrer"
                 className={classes.footer_a_link}
@@ -113,16 +79,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        {/* <div className={classes.footer}second'>
-          <h2 className={classes.footer}menu-heading'>Menu</h2>
-          <h6 className={classes.footer}page-link'>About US</h6>
-          <h6 className={classes.footer}page-link'>Term of Use</h6>
-          <h6 className={classes.footer}page-link'>Privary Policy</h6>
-          <h6 className={classes.footer}page-link'>Order History</h6>
-          <h6 className={classes.footer}page-link'>Return policy</h6>
-        </div> */}
+
         <div className={classes.footer_third}>
-          <h2 className={classes.footer_menu_heading}>Contact Us</h2>
+          <h2 className={classes.footer_menu_heading} style={{fontFamily: 'sans-serif'}}>Contact Us</h2>
           <div className={classes.footer_contact}>
             <div className={classes.footer_contact_item_image}>
               <img
@@ -132,7 +91,7 @@ const Footer = () => {
               />
             </div>
             <div>
-              <p>Institute of Technology Gopeshwar, Chamoli</p>
+              <p>Sairam Engineering College, West Tambaram</p>
             </div>
           </div>
           <div className={classes.footer_contact}>
@@ -144,7 +103,7 @@ const Footer = () => {
               />
             </div>
             <div>
-              <p>8755700134</p>
+              <p>044 - 2251 2222</p>
             </div>
           </div>
           <div className={classes.footer_contact}>
@@ -156,7 +115,7 @@ const Footer = () => {
               />
             </div>
             <div>
-              <p className={classes.mail}>itgopeshwar@gmail.com</p>
+              <p className={classes.mail}>flarendo2024@gmail.com</p>
             </div>
           </div>
         </div>
