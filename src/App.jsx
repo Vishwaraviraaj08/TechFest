@@ -1,54 +1,61 @@
 import React, { useEffect, useState } from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
-// import Button from "./components/common/Button/Button";
 import Navbar from "../src/components/Navbar/Navbar";
 import Footer from "../src/components/Footer/Footer";
-import Hidden from "../src/components/Hidden/Hidden";
-import MainEvents from "./components/MainEvents/MainEvents";
-// import Faq from "../src/components/Faq/Faq";
-import Homepage from "./pages/Homepage";
-import SingleEventPage from "./components/SingleEventPage/SingleEventPage";
-import Leaderboard from "./pages/PrevEvent";
-import AboutPage from "./pages/AboutPage";
-import Register from "./components/common/Register/Register";
-import ContactUs from "./components/ContactUs/ContactUs";
 import Loading from "./components/common/Loading/Loading";
-import "./App.css";
+import Homepage from "./pages/Homepage";
+import MainEvents from "./components/MainEvents/MainEvents";
+import SingleEventPage from "./components/SingleEventPage/SingleEventPage";
 import PrevEvent from "./pages/PrevEvent";
-import metallicSound from "./assets/clicksound.mp3";
+import AboutPage from "./pages/AboutPage";
+import ContactUs from "./components/ContactUs/ContactUs";
 import backgroundMusic from "/backgroundMusic.mp3";
-
+import metallicSound from "./assets/clicksound.mp3";
+import "./App.css";
 
 const App = () => {
   const location = useLocation();
+  const [loading, setLoading] = useState(true);
+  const [audioInitialized, setAudioInitialized] = useState(false);
 
+  // Scroll to top on location change
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location]);
-  const [loading, setLoading] = useState(true);
 
-  setTimeout(() => setLoading(false), 3000);
-  useEffect(() => {});
-
+  // Set loading state
   useEffect(() => {
-    const playSound = () => {
-
-      const audio = new Audio(backgroundMusic);
-      audio.loop = true;
-      audio.play();
-    };
-    playSound();
-
-   
-
+    const timer = setTimeout(() => setLoading(false), 3000);
+    return () => clearTimeout(timer);
   }, []);
 
+  // Play background music on user interaction
+  useEffect(() => {
+    const handleUserInteraction = () => {
+      if (!audioInitialized) {
+        const audio = new Audio(backgroundMusic);
+        audio.loop = true;
+        audio.play().catch(error => console.log("Failed to play background music:", error));
+        setAudioInitialized(true);
+      }
+    };
 
+    // Attach event listener to user interaction
+    // document.addEventListener('click', handleUserInteraction);
+    const dummy  = document.createElement("div");
+    dummy.addEventListener('click', handleUserInteraction);
+    dummy.click();
 
+    return () => {
+      document.removeEventListener('click', handleUserInteraction);
+    };
+  }, [audioInitialized]);
+
+  // Play metallic sound on click
   useEffect(() => {
     const playSound = () => {
       const audio = new Audio(metallicSound);
-      audio.play();
+      audio.play().catch(error => console.log("Failed to play metallic sound:", error));
     };
 
     document.addEventListener('click', playSound);
@@ -58,33 +65,23 @@ const App = () => {
     };
   }, []);
 
-
-
-
   return (
     <>
       {loading ? (
         <Loading />
       ) : (
-          <>
-
-            {/*<Popup />*/}
-
-            <Navbar/>
-
-              <Routes location={location} key={location.key} >
-                <Route path="/" element={<Homepage/>}/>
-                <Route path="/events" element={<MainEvents/>}/>
-                <Route path="/events/:eventId" element={<SingleEventPage/>}/>
-                <Route path="/crescendo23" element={<PrevEvent/>}/>
-                <Route path="/about" element={<AboutPage/>}/>
-                <Route path="/contact" element={<ContactUs/>}/>
-                {/*<Route path="*" element={<NotFound />}></Route> *!/*/}
-                {/* <Route path="/" element={<Landing />}></Route>  */}
-                {/* <Route path="/" element={<Faq />}></Route>  */}
-              </Routes>
-              <Footer/>
-          </>
+        <>
+          <Navbar />
+          <Routes location={location} key={location.key}>
+            <Route path="/" element={<Homepage />} />
+            <Route path="/events" element={<MainEvents />} />
+            <Route path="/events/:eventId" element={<SingleEventPage />} />
+            <Route path="/crescendo23" element={<PrevEvent />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/contact" element={<ContactUs />} />
+          </Routes>
+          <Footer />
+        </>
       )}
     </>
   );
