@@ -11,12 +11,23 @@ import AboutPage from "./pages/AboutPage";
 import ContactUs from "./components/ContactUs/ContactUs";
 import backgroundMusic from "/backgroundMusic.mp3";
 import metallicSound from "./assets/clicksound.mp3";
+import useSound from "use-sound";
 import "./App.css";
 
 const App = () => {
   const location = useLocation();
   const [loading, setLoading] = useState(true);
   const [audioInitialized, setAudioInitialized] = useState(false);
+  const [play, { stop }] = useSound(backgroundMusic, { volume: 0.5, loop: true });
+
+
+  useEffect(() => {
+    play();
+    return () => {
+      stop();
+    };
+  }, [play, stop]);
+
 
   // Scroll to top on location change
   useEffect(() => {
@@ -30,18 +41,18 @@ const App = () => {
   }, []);
 
   // Play background music on user interaction
-  useEffect(() => {
-    const handleUserInteraction = () => {
-      if (!audioInitialized && !loading) {
-        const audio = new Audio(backgroundMusic);
-        audio.loop = true;
-        audio.play().catch(error => console.log("Failed to play background music:", error));
-        setAudioInitialized(true);
-      }
-    };
-
-    handleUserInteraction();
-  }, [audioInitialized, loading]);
+  // useEffect(() => {
+  //   const handleUserInteraction = () => {
+  //     if (!audioInitialized && !loading) {
+  //       const audio = new Audio(backgroundMusic);
+  //       audio.loop = true;
+  //       audio.play().catch(error => console.log("Failed to play background music:", error));
+  //       setAudioInitialized(true);
+  //     }
+  //   };
+  //
+  //   handleUserInteraction();
+  // }, [audioInitialized, loading]);
 
   // Play metallic sound on click
   useEffect(() => {

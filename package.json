@@ -14,9 +14,9 @@
     "react-router-dom": "^6.8.1",
     "react-router-hash-link": "^2.4.3",
     "react-scroll": "^1.9.0",
-    "swup": "^3.0.4"
+    "swup": "^3.0.4",
+    "use-sound": "^4.0.3"
   },
-
   "scripts": {
     "start": "vite",
     "build": "vite build",
