@@ -30,6 +30,23 @@ const App = () => {
   setTimeout(() => setLoading(false), 3000);
   useEffect(() => {});
 
+  useEffect(() => {
+    const playSound = () => {
+
+      const audio = new Audio(backgroundMusic);
+      audio.loop = true;
+      audio.play();
+    };
+    playSound();
+
+   
+
+    return () => {
+     
+    };
+  }, []);
+
+
 
   useEffect(() => {
     const playSound = () => {
