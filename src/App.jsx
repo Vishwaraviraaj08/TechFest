@@ -32,7 +32,7 @@ const App = () => {
   // Play background music on user interaction
   useEffect(() => {
     const handleUserInteraction = () => {
-      if (!audioInitialized) {
+      if (!audioInitialized && !loading) {
         const audio = new Audio(backgroundMusic);
         audio.loop = true;
         audio.play().catch(error => console.log("Failed to play background music:", error));
@@ -40,16 +40,8 @@ const App = () => {
       }
     };
 
-    // Attach event listener to user interaction
-    // document.addEventListener('click', handleUserInteraction);
-    const dummy  = document.createElement("div");
-    dummy.addEventListener('click', handleUserInteraction);
-    dummy.click();
-
-    return () => {
-      document.removeEventListener('click', handleUserInteraction);
-    };
-  }, [audioInitialized]);
+    handleUserInteraction();
+  }, [audioInitialized, loading]);
 
   // Play metallic sound on click
   useEffect(() => {
