@@ -16,6 +16,7 @@ import "./App.css";
 
 const App = () => {
   const location = useLocation();
+
   const [loading, setLoading] = useState(true);
   const [audioInitialized, setAudioInitialized] = useState(false);
   const [play, { stop }] = useSound(backgroundMusic, { volume: 0.5, loop: true });
@@ -69,24 +70,26 @@ const App = () => {
   }, []);
 
   return (
-    <>
-      {loading ? (
-        <Loading />
-      ) : (
-        <>
-          <Navbar />
-          <Routes location={location} key={location.key}>
-            <Route path="/" element={<Homepage />} />
-            <Route path="/events" element={<MainEvents />} />
-            <Route path="/events/:eventId" element={<SingleEventPage />} />
-            <Route path="/crescendo23" element={<PrevEvent />} />
-            <Route path="/about" element={<AboutPage />} />
-            <Route path="/contact" element={<ContactUs />} />
-          </Routes>
-          <Footer />
-        </>
-      )}
-    </>
+      <>
+        <div id={"main"}>
+          {loading ? (
+              <Loading />
+          ) : (
+              <>
+                <Navbar />
+                <Routes location={location} key={location.key}>
+                  <Route path="/" element={<Homepage />} />
+                  <Route path="/events" element={<MainEvents />} />
+                  <Route path="/events/:eventId" element={<SingleEventPage />} />
+                  <Route path="/crescendo23" element={<PrevEvent />} />
+                  <Route path="/about" element={<AboutPage />} />
+                  <Route path="/contact" element={<ContactUs />} />
+                </Routes>
+                <Footer />
+              </>
+          )}
+        </div>
+      </>
   );
 };
 
