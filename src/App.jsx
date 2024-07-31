@@ -13,13 +13,13 @@ import backgroundMusic from "/backgroundMusic.mp3";
 import metallicSound from "./assets/clicksound.mp3";
 import useSound from "use-sound";
 import "./App.css";
+import Popup from "./components/common/Popup/Popup";
 
 const App = () => {
   const location = useLocation();
 
   const [loading, setLoading] = useState(true);
-  const [audioInitialized, setAudioInitialized] = useState(false);
-  const [play, { stop }] = useSound(backgroundMusic, { volume: 0.5, loop: true });
+  const [play, { stop }] = useSound(backgroundMusic, { volume: 0.2, loop: true });
 
 
   useEffect(() => {
@@ -41,21 +41,6 @@ const App = () => {
     return () => clearTimeout(timer);
   }, []);
 
-  // Play background music on user interaction
-  // useEffect(() => {
-  //   const handleUserInteraction = () => {
-  //     if (!audioInitialized && !loading) {
-  //       const audio = new Audio(backgroundMusic);
-  //       audio.loop = true;
-  //       audio.play().catch(error => console.log("Failed to play background music:", error));
-  //       setAudioInitialized(true);
-  //     }
-  //   };
-  //
-  //   handleUserInteraction();
-  // }, [audioInitialized, loading]);
-
-  // Play metallic sound on click
   useEffect(() => {
     const playSound = () => {
       const audio = new Audio(metallicSound);
@@ -76,6 +61,7 @@ const App = () => {
               <Loading />
           ) : (
               <>
+                <Popup/>
                 <Navbar />
                 <Routes location={location} key={location.key}>
                   <Route path="/" element={<Homepage />} />
@@ -84,6 +70,7 @@ const App = () => {
                   <Route path="/crescendo23" element={<PrevEvent />} />
                   <Route path="/about" element={<AboutPage />} />
                   <Route path="/contact" element={<ContactUs />} />
+                  <Route path={"/popup"} element={<Popup/>}/>
                 </Routes>
                 <Footer />
               </>

@@ -14,7 +14,7 @@
 }
 .card {
   width: 50vw;
-  height: 50vh;
+  height: auto;
   background: #19212e;
   display: flex;
   place-content: center;
@@ -24,12 +24,12 @@
   overflow: hidden;
   border-radius: 20px;
   position: absolute;
-  top: 30vh;
+  top: 20vh;
   right: 25vw;
   z-index: 11;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+  rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .close {
   z-index: 1;
@@ -57,9 +57,9 @@
   position: absolute;
   width: 50vw;
   background-image: linear-gradient(
-    180deg,
-    rgb(0, 183, 255),
-    rgb(255, 48, 255)
+          180deg,
+          rgb(0, 183, 255),
+          rgb(255, 48, 255)
   );
   height: 130%;
   animation: rotBGimg 3s linear infinite;
@@ -105,12 +105,13 @@
   transition: all 0.3s ease-in;
 }
 .grabbit_image {
+  margin :50px;
   width: 200px;
   z-index: 2;
   transition: all 0.3s ease-in;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+  rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .grabbit_image:hover {
   transform: translateY(-10px);
