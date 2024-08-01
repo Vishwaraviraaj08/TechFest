@@ -238,13 +238,9 @@ const SingleEventPage = () => {
             {link !== "" ? (
               <Button hrefLink={link} label="Register" />
       
-            ) : onSpot !== "" ? (
-              <p className={classes.soon}>
-                Registration will be taken on spot!{" "}
-              </p>
             ) : (
-              <p className={classes.soon}>Registration will be open soon.</p>
-            )}
+                <Button hrefLink={onSpot} label="Register" />
+                )}
           </div>
         </div>
       </div>

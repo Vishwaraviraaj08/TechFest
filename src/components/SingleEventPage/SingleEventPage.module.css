@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:itol,:wght@0,400;1,700;1,400&display=swap');
+
 .singleEvent {
   width: 100vw;
   height: 120vh;
@@ -51,6 +54,8 @@
 }
 
 .eventHeading {
+  font-family: "Space Mono", monospace;
+  font-style: italic;
   text-align: center;
   font-size: 36px;
   font-weight: 600;
@@ -59,6 +64,9 @@
 .rowcol {
   display: flex;
 }
+
+
+
 
 .subheading {
   margin: 20px 20px 20px 0px;
@@ -72,12 +80,15 @@
 .headingp {
   font-size: 24px;
   font-weight: 500;
-  background-image: linear-gradient(to bottom right, #3232ff, #09b9ff);
-  padding: 4px 12px 4px 12px;
+  background: linear-gradient(to right, #17a970, #3592af, #2345cf, #2383bb);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  padding: 4px 12px 4px 0px;
   border-radius: 4px;
 }
+
 .headingp {
-  background-image: linear-gradient(to bottom right, #ff00ee, #ff0932);
+  background-image: linear-gradient(to bottom right, #17a970, #2345cf);
 }
 
 .content {

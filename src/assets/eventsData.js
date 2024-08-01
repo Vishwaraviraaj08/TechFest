@@ -37,6 +37,10 @@ export const eventsData = [
     ],
     link: "https://forms.google.com",
   },
+
+
+
+
   {
     id: 2,
     image: "https://th.bing.com/th/id/OIP.as0RXz_40G-X1APLE__HRgHaHa?rs=1&pid=ImgDetMain",
