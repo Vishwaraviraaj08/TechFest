@@ -15,7 +15,7 @@ const Footer = () => {
             <div>
               <img
                 className={classes.footer_sambhav_image}
-                src={"https://pngimg.com/uploads/smiley/smiley_PNG74.png"}
+                src={"/Flarendo_logo.png"}
                 alt="Logo"
               ></img>
             </div>

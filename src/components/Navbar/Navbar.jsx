@@ -53,7 +53,7 @@ const Navbar = () => {
             duration={600}
           >
             <Link to="/">
-              <img src={"https://pngimg.com/uploads/smiley/smiley_PNG74.png"} height={"auto"} alt="/" className={classes.logo} />
+              <img src={"/Flarendo_logo.png"} height={"auto"} alt="/" className={classes.logo} />
             </Link>
           </Drop>
         </div>

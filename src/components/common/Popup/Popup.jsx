@@ -16,7 +16,7 @@ const Popup = () => {
         <>
           <div className={classes.blur}>
             <div className={classes.card}>
-              <img className={classes.grabbit_image} src={"https://pngimg.com/uploads/smiley/smiley_PNG74.png"} alt="logo" />
+              <img className={classes.grabbit_image} src={"/Flarendo_logo.png"} alt="logo" />
               <h2 className={classes.text}>Explore Flarendo'24 with Fun !</h2>
               <div className={classes.btn_container}>
                 <Button

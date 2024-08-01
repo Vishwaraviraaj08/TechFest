@@ -105,7 +105,7 @@
   transition: all 0.3s ease-in;
 }
 .grabbit_image {
-  margin :50px;
+  margin :50px 50px 30px 50px;
   width: 200px;
   z-index: 2;
   transition: all 0.3s ease-in;
