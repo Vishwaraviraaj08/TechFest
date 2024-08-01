@@ -119,11 +119,11 @@
 @media screen and (max-width: 768px) {
   .card {
     width: 90vw;
-    height: 40vh;
+    height: auto;
     right: 4vw;
   }
   .card .text {
-    font-size: 1.3em;
+    font-size: 2.5em;
   }
   .card .subtext {
     font-size: 1em;
