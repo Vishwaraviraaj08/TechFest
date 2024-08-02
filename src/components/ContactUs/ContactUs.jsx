@@ -13,19 +13,19 @@ const ContactUs = () => {
 
           <Profile data={{
             name: "Yathish Kumar",
-            imageUrl: "",
+            imageUrl: "/Organizers/Yathish.jpg",
             designation: "ChairPerson",
             phone: "9360269160",
             mail: "sec21it179@sairamtap.edu.in",
-            backgroundCoverImage: ""
+            backgroundCoverImage: "https://th.bing.com/th/id/OIP.5TxZKPW_N52nc1OjKrA2YgHaEw?rs=1&pid=ImgDetMain"
           }}/>
           <Profile data={{
             name: "Kiran Kumar",
-            imageUrl: "",
+            imageUrl: "/Organizers/Kiran.jpg",
             designation: "Treasurer",
             phone: "9361505517",
             mail: "sec21it177@sairamtap.edu.in",
-            backgroundCoverImage: ""
+            backgroundCoverImage: "https://th.bing.com/th/id/OIP.JA6d8xbMDX97cEz9xAAzhwHaEo?w=525&h=328&rs=1&pid=ImgDetMain"
           }}/>
         </div>
         <h1 style={{color: 'white', fontSize: '4rem', margin:'3%'}}>Event Secretaries</h1>
@@ -36,27 +36,27 @@ const ContactUs = () => {
 
           <Profile data={{
             name: "Abhishek Obli",
-            imageUrl: "",
+            imageUrl: "/Organizers/Obli.jpg",
             designation: "Secretary",
             phone: "9655236550",
             mail: "sec21it109@sairamtap.edu.in",
-            backgroundCoverImage: ""
+            backgroundCoverImage: "https://th.bing.com/th/id/OIP.d0P6wkVcQXrflDByh9QD9wAAAA?rs=1&pid=ImgDetMain"
           }}/>
           <Profile data={{
             name: "HariHaran",
-            imageUrl: "",
+            imageUrl: "/Organizers/Hari.png",
             designation: "Secretary",
             phone: "9342801642",
             mail: "sec21it052@sairamtap.edu.in",
-            backgroundCoverImage: ""
+            backgroundCoverImage: "https://th.bing.com/th/id/OIP.vten8hXB10zmVRpJKmCfRQHaE9?w=626&h=419&rs=1&pid=ImgDetMain"
           }}/>
           <Profile data={{
             name: "Naveen Kumar",
-            imageUrl: "",
+            imageUrl: "/Organizers/Naveen.jpg",
             designation: "Secretary",
             phone: "9884106752",
             mail: "sec21it057@sairamtap.edu.in",
-            backgroundCoverImage: ""
+            backgroundCoverImage: "https://img.freepik.com/premium-photo/hallway-with-neon-lights-wall_787273-1422.jpg"
           }}/>
         </div>
 

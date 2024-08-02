@@ -5,11 +5,13 @@ import Button from "../common/Button/Button";
 import { useParams } from "react-router-dom";
 import { eventsData } from "../../assets/eventsData";
 
+
 const SingleEventPage = () => {
   const { eventId } = useParams();
   console.log(eventId);
 
   const requiredEvent = eventsData.find((event) => event.id === +eventId);
+
   const {
     name,
     image,
@@ -125,6 +127,11 @@ const SingleEventPage = () => {
   opacity: 1;
 }
 
+.noBullet {
+  list-style-type: none;
+}
+
+
           `
         }
       </style>
@@ -180,19 +187,51 @@ const SingleEventPage = () => {
                 </ul>
               </div>
             )}
+
+            {
+                requiredEvent.rounds && (
+                    <div className={classes.subheading}>
+                      <h2 className={classes.heading}>Rounds</h2>
+                      <ul>
+                        {requiredEvent.rounds.map((round, i) => (
+                            <li key={i} style={{marginBottom: "1rem"}} className={classes.content}>
+                              <div style={{fontWeight: 'bold', marginBottom: '0.5rem'}}>{round[0]}</div>
+                              <ul>
+                                {round.slice(1).map((detail, j) => (
+                                    <li key={j} style={{marginLeft: "1rem", listStyleType: "circle"}} className={classes.content}>
+                                      {detail}
+                                    </li>
+                                ))}
+                              </ul>
+                            </li>
+                        ))}
+                      </ul>
+                    </div>
+                )
+            }
+
             {rules && (
-              <div className={classes.subheading}>
-                <h2 className={classes.heading}>Rules and Regulations</h2>
-                <ul>
-                  {rules?.map((rule, i) => {
-                    return (
-                      <li key={i} className={classes.content}>
-                        {rule}
-                      </li>
-                    );
-                  })}
-                </ul>
-              </div>
+                <div className={classes.subheading}>
+                  <h2 className={classes.heading}>Rules and Regulations</h2>
+                  <ul>
+                    {rules.map((rule, i) => {
+
+                      const isNoBullet = rule.startsWith(" ");
+                      if (rule === "---") {
+                        return <li key={i} style={{marginBottom: "2rem"}}
+                                   className={`${classes.content} ${"noBullet"}`}></li>; // Add gap styling here
+                      }
+                      return (
+                          <li
+                              key={i}
+                              className={`${classes.content} ${isNoBullet ? "noBullet" : ""}`}
+                          >
+                            {rule}
+                          </li>
+                      );
+                    })}
+                  </ul>
+                </div>
             )}
             {disqualification && (
               <div className={classes.subheading}>
@@ -230,17 +269,19 @@ const SingleEventPage = () => {
             {note && (
               <div className={classes.subheading}>
                 <h2 className={classes.heading}>Note</h2>
-                {note?.map(() => {
-                  return <p className={classes.content}>{note}</p>;
+                {note.map((str, i) => {
+                  return <p className={classes.content}>{str}</p>;
                 })}
               </div>
             )}
-            {link !== "" ? (
-              <Button hrefLink={link} label="Register" />
-      
-            ) : (
-                <Button hrefLink={onSpot} label="Register" />
-                )}
+            <div style={{margin : '2rem'}}>
+              {link !== "" ? (
+                <Button hrefLink={link} label="Register" />
+
+              ) : (
+                  <Button hrefLink={onSpot} label="Register" />
+                  )}
+            </div>
           </div>
         </div>
       </div>

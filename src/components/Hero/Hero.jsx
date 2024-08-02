@@ -8,7 +8,7 @@ const Hero = () => {
     <section id="home" className={classes.hero}>
       <div className={classes.herobox}>
         <div className={classes.headerbox}>
-          <h1 className={classes.heading} style={{textAlign:'center', marginBottom:'4rem'}}>FLARENDO 2K24</h1>
+          <h1 className={classes.heading} style={{textAlign:'center', marginBottom:'4rem'}}>FLARENDO '24</h1>
           <h4 className={classes.caption}>Let's make a tech move!</h4>
           <p className={classes.date}>August 28, 2024</p>
           <Link

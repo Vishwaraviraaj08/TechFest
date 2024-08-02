@@ -6,7 +6,7 @@ export default function Profile({data}) {
     return (
         <div className={"profile-body"} >
             <div className="card">
-                <div className="cover-photo" style={{background: `url(${data.backgroundCoverImage})`}}>
+                <div className="cover-photo" style={{backgroundImage: `url(${data.backgroundCoverImage})` }}>
                     <img src={data.imageUrl} className="profile"/>
                 </div>
                 <h3 className="profile-name">{data.name}</h3>
