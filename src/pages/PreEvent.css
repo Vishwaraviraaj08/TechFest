@@ -75,49 +75,59 @@
 }
 
 
-
-
-
 .carousel-container{
-    height: 400px;
+    height: 500px;
     width: 100%;
-    /*aspect-ratio: 1.5 / 1;*/
     display: flex;
     flex-direction: row;
     overflow: hidden;
     gap: 2px;
 }
 
-.carousel-container:has(.carousel-img.active) .carousel-img:not(.active){
-    filter: grayscale(100%)
+.carousel-container:has(.carousel-img.active) .carousel-img:not(.active) {
+    filter: grayscale(100%);
 }
 
-.carousel-img{
+.carousel-img {
     height: 100%;
     width: calc(100% / 5);
     object-fit: cover;
     overflow: hidden;
     border: 2px solid #141414;
-    transition: all 0.4s cubic-bezier(0.32, 0, 0.67, 0);
+    transition: transform 0.4s cubic-bezier(0.32, 0, 0.67, 0), opacity 0.4s;
+    opacity: 0;
     cursor: pointer;
+    will-change: transform, opacity;
 }
 
-.active{
-    width: 200%;
+.carousel-img.active {
+    transform: scale(1.5);
+    width: 60%;
+    /*z-index: 1; !* Ensure the active image is above others *!*/
 }
 
+.carousel-img.loaded {
+    opacity: 1;
+}
 
-@media screen and (max-width: 768px){
-
-    .carousel-container{
+@media screen and (max-width: 768px) {
+    .carousel-container {
         flex-direction: column;
+        height: 80vh;
+    }
+
+    .carousel-img {
+        height: calc(100% / 5);
+        width: 100%;
+    }
+
+    .carousel-img.active {
+        transform: scaleY(2);
+        width: 100%;
+        height: calc(100% / 3);
 
     }
-    .carousel-img{
+    .carousel-img:not(.active) {
         height: calc(100% / 5);
-        width:100%;
-    }
-    .active{
-        height:200%;
     }
 }
