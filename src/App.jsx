@@ -19,7 +19,7 @@ const App = () => {
   const location = useLocation();
 
   const [loading, setLoading] = useState(true);
-  const [play, { stop }] = useSound(backgroundMusic, { volume: 1, loop: true });
+  const [play, { stop }] = useSound(backgroundMusic, { volume: 0.1, loop: true });
 
 
   useEffect(() => {
