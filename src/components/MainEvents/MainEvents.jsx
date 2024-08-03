@@ -5,15 +5,6 @@ import {eventsData} from "../../assets/eventsData";
 import ReactGA from "react-ga";
 
 const MainEvents = () => {
-    // const swup = new Swup({
-    //   plugins: [
-    //     new SwupOverlayTheme({
-    //       color: "#2D2E82",
-    //       duration: 600,
-    //       direction: "to-right",
-    //     }),
-    //   ],
-    // });
     useEffect(() => {
         ReactGA.pageview(window.location.pathname);
     });

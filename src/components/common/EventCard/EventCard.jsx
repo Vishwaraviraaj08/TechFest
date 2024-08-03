@@ -20,9 +20,9 @@ const EventCard = ({ eventData }) => {
               />
             </div>
             {/* <p className={classes.event_desc}>{description}</p> */}
-            <div className={classes.view_more_btn}>
-              <Button link={`/events/${id}`} label="View More" />
-            </div>
+            {/*<div className={classes.view_more_btn}>*/}
+            {/*  <Button link={`/events/${id}`} label="View More" />*/}
+            {/*</div>*/}
           </div>
         </div>
       </NavLink>

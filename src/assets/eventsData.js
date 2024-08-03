@@ -1,7 +1,7 @@
 export const eventsData = [
   {
     id: 1,
-    image: "https://th.bing.com/th/id/OIP.as0RXz_40G-X1APLE__HRgHaHa?rs=1&pid=ImgDetMain",
+    image: "/Posters/CodeTwisters.png",
     name: "Code Twisters",
     eventType:"tech",
     description:
@@ -45,7 +45,7 @@ export const eventsData = [
 
   {
     id: 2,
-    image: "https://th.bing.com/th/id/OIP.as0RXz_40G-X1APLE__HRgHaHa?rs=1&pid=ImgDetMain",
+    image: "/Posters/bidviz.png",
     name: "Bidviz",
     eventType:"tech",
     description:
@@ -89,7 +89,7 @@ export const eventsData = [
 
   {
     id: 3,
-    image: "https://th.bing.com/th/id/OIP.as0RXz_40G-X1APLE__HRgHaHa?rs=1&pid=ImgDetMain",
+    image: "/Posters/royalrumble.png",
     name: "Royal Rumble",
     eventType:"non-tech",
     description:
@@ -126,7 +126,7 @@ export const eventsData = [
 
   {
     id: 4,
-    image: "https://th.bing.com/th/id/OIP.as0RXz_40G-X1APLE__HRgHaHa?rs=1&pid=ImgDetMain",
+    image: "/Posters/fftournament.png",
     name: "Free Fire Tournament",
     eventType:"non-tech",
     description:
@@ -163,7 +163,7 @@ export const eventsData = [
 
   {
     id: 5,
-    image: "https://th.bing.com/th/id/OIP.as0RXz_40G-X1APLE__HRgHaHa?rs=1&pid=ImgDetMain",
+    image: "/Posters/IdeaForge.png",
     name: "IDEA FORGE",
     eventType:"tech",
     description:
@@ -206,7 +206,7 @@ export const eventsData = [
 
   {
     id: 6,
-    image: "https://th.bing.com/th/id/OIP.as0RXz_40G-X1APLE__HRgHaHa?rs=1&pid=ImgDetMain",
+    image: "/Posters/TuneQuest.png",
     name: "TuneQuest",
     eventType:"non-tech",
     description:
@@ -250,7 +250,7 @@ export const eventsData = [
 
   {
     id: 7,
-    image: "https://th.bing.com/th/id/OIP.as0RXz_40G-X1APLE__HRgHaHa?rs=1&pid=ImgDetMain",
+    image: "/Posters/UIUX.png",
     name: "UI/UX Battle Royale",
     eventType:"tech",
     description:
@@ -294,14 +294,13 @@ export const eventsData = [
 
   {
     id: 8,
-    image: "https://th.bing.com/th/id/OIP.as0RXz_40G-X1APLE__HRgHaHa?rs=1&pid=ImgDetMain",
+    image: "/Posters/CodeSphere.png",
     name: "CodeSphere",
     eventType:"tech",
     description:
         "Step into the arena of coding and challenge your programming skills in our thrilling CodeSphere event. This competition is designed to test your problem-solving abilities and coding expertise across three intense rounds.\n",
     rules: [
       "Each team must consist of 2 members." ,
-      "Additional details and queries will be addressed in the WhatsApp group." ,
       "Further details and queries will be addressed in the WhatsApp group.",
       "The judge's decision will be final."
     ],
