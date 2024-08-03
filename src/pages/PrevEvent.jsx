@@ -16,7 +16,7 @@ const LazyImage = ({ src, alt, className, onClick }) => {
             src={loaded ? src : undefined}
             alt={alt}
             className={`${className} ${loaded ? "loaded" : "loading"}`}
-            onClick={onClick}
+            onMouseOver={onClick}
         />
     );
 };
