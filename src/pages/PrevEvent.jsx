@@ -23,67 +23,40 @@ const PrevEvent = () => {
                     <div className="slider">
                         <div className="slide-track">
                             <div className="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100"
+                                <img src="/Carousel/1.jpg" height="100"
                                      width="250"
                                      alt=""/>
                             </div>
                             <div className="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100"
+                                <img src="/Carousel/2.jpg" height="100"
                                      width="250"
                                      alt=""/>
                             </div>
                             <div className="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100"
+                                <img src="/Carousel/3.jpg" height="100"
                                      width="250"
                                      alt=""/>
                             </div>
                             <div className="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100"
+                                <img src="/Carousel/4.jpg" height="100"
                                      width="250"
                                      alt=""/>
                             </div>
                             <div className="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100"
+                                <img src="/Carousel/5.jpg" height="100"
                                      width="250"
                                      alt=""/>
                             </div>
                             <div className="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100"
+                                <img src="/Carousel/6.jpg" height="100"
                                      width="250"
                                      alt=""/>
                             </div>
                             <div className="slide">
-                                <img src="https://storage.googleapis.com/ycode-prod-uploads/assets/app13650/Images/kJ2QhfbKXb20ab00GiyTOwFJMtrAWlyTk7ONaY4K.jpg"
+                                <img src="/Carousel/7.jpg"
                                      alt=""/>
                             </div>
-                            <div className="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png"
-                                     alt=""/>
-                            </div>
-                            <div className="slide">
-                                <img src="https://storage.googleapis.com/ycode-prod-uploads/assets/app13650/Images/kJ2QhfbKXb20ab00GiyTOwFJMtrAWlyTk7ONaY4K.jpg"
-                                     alt=""/>
-                            </div>
-                            <div className="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png"
-                                     alt=""/>
-                            </div>
-                            <div className="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png"
-                                     alt=""/>
-                            </div>
-                            <div className="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png"
-                                     alt=""/>
-                            </div>
-                            <div className="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png"
-                                     alt=""/>
-                            </div>
-                            <div className="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png"
-                                     alt=""/>
-                            </div>
+
                         </div>
                     </div>
 

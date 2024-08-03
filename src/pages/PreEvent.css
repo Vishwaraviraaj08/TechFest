@@ -11,7 +11,7 @@
         transform: translateX(0);
     }
     100% {
-        transform: translateX(calc(-550px * 20));
+        transform: translateX(calc(-550px * 10));
     }
 }
 
@@ -20,7 +20,7 @@
         transform: translateX(0);
     }
     100% {
-        transform: translateX(calc(-550px * 20));
+        transform: translateX(calc(-550px * 10));
     }
 }
 .slider {
@@ -49,7 +49,7 @@
 
 .slide img {
     height: 300px;
-    width: 570px;
+    width: 520px;
     padding: 3rem;
 }
 

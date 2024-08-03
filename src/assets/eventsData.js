@@ -60,6 +60,7 @@ export const eventsData = [
       "The dataset about the player's statistics will be provided .",
       "Final judgement will be based on both team selection and creation of dashboard in the visualization tool.",
       "---",
+      "---",
       "An ideal team size would consist of 3 individuals," ,
       "Individuals who are enrolled in an Undergraduate Degree program are eligible to participate," ,
       "Other details and queries will be discussed in the WhatsApp group," +
