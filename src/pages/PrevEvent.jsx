@@ -53,16 +53,46 @@ const PrevEvent = () => {
                                      alt=""/>
                             </div>
                             <div className="slide">
-                                <img src="/Carousel/7.jpg"
+                                <img src="/Carousel/7.jpg" height="100"
+                                     width="250"
                                      alt=""/>
                             </div>
+                            <div className="slide">
+                                <img src="/Carousel/8.jpg"
+                                     alt=""/>
+                            </div>
+                            <div className="slide">
+                                <img src="/Carousel/9.jpg"  alt=""/>
+                            </div>
+                            <div className="slide">
+                                <img src="/Carousel/10.jpg"
+                                     alt=""/>
+                            </div>
+                            <div className="slide">
+                                <img src="/Carousel/11.jpg"
+                                     alt=""/>
+                            </div>
+                            <div className="slide">
+                                <img src="/Carousel/12.jpg"
+                                     alt=""/>
+                            </div>
+                            <div className="slide">
+                                <img src="/Carousel/13.jpg"
+                                     alt=""/>
+                            </div>
+                            <div className="slide">
+                                <img src="/Carousel/14.jpg"
+                                     alt=""/>
+                            </div>
+
+
 
                         </div>
                     </div>
 
                 </div>
             </div>
-        </>);
+    </>);
 };
 
 export default PrevEvent;
