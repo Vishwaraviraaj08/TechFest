@@ -7,31 +7,34 @@ export const eventsData = [
     description:
       "Code Twisters is a captivating coding competition designed to push your programming limits, foster teamwork, and introduce unique challenges. As part of our department symposium, this event promises a mix of online and offline rounds with intriguing twists to keep you on your toes.",
     rules: [
-        "  FOR ROUND 2 :",
+        "  ROUND 1 : ONLINE QUALIFIER",
+        "Platform: Quizz",
+        "Format: 30 questions covering C, Python, Java, HTML, and CSS",
+        "Type of Questions: Find the error, identify the missing line in the code, etc.",
+        "Duration: Specific time allotted for all 30 questions",
+        "---",
+        "  ROUND 2 : OFFLINE CHALLENGE",
+        "Platform: HackerRank",
         "Only one team member codes at a time, for a maximum of 5 minutes.",
         "The other team member is not allowed to see the code during this time.",
         "Team members switch roles every 5 minutes.",
         "The screen will be tilted to add an extra layer of difficulty.",
         "---",
-        "  FOR ROUND 3 : ",
+        "  ROUND 3 : ULTIMATE CODING SHUTDOWN",
         "Only one team member codes at a time, for a maximum of 3 minutes.",
         "The other team member is not allowed to see the code during this time.",
         "Team members switch roles every 3 minutes.",
         "Team members switch roles every 3 minutes.",
         "The coding team member will listen to music through headphones while coding.",
       ],
-    rounds : [
-        ["Round 1: Online Qualifier","Platform: Quizz", "Format: 30 questions covering C, Python, Java, HTML, and CSS", "Type of Questions: Find the error, identify the missing line in the code, etc.", "Duration: Specific time allotted for all 30 questions"],
-        ["Round 2: Offline Challenge", "Platform: HackerRank"]
-    ],
-    prizes: ["1st Prize: ₹----", "2nd Prize: ₹----", "3rd Prize: ₹----"],
+    prizes: ["1st Prize: ₹1000", "2nd Prize: ₹750", "3rd Prize: ₹500"],
     team: "2 Members",
-    fees: "",
+    fees: "Free",
     contactInfo: [
       "Sabari Srinivas : +91 9003054882",
       "Saranya: +91 6380336458"
     ],
-    location: "CC3",
+    location: "CC4",
     date: "28th August",
     note: [
       "The team that completes the most tasks correctly in the shortest amount of time will be crowned the Code Twisters champions.",
@@ -51,7 +54,13 @@ export const eventsData = [
     description:
     "Dive into the event of sports and analytics . This event test the participant's cricket and analytical knowledge with various challenges on Visualization Using Power Bi and Tableau. This event consists of two rounds (Online and Offline).",
     rules: [
-      "  FOR ROUND 2 :",
+        "   ROUND 1 : ONLINE QUALIFIER",
+      "Platform: Quizizz",
+      "Format: MCQ questions covering both Cricket and Data Analytics & Visualization",
+      "Selection: The top 8 teams will advance to the second round conducted in the Offline mode",
+        "---",
+      "   ROUND 2 : OFFLINE CHALLENGE",
+      "Platform: Power Bi/Tableau",
       "Here each team must bring their own laptop and ethernet cable.",
       "The participants must have the basic knowledge on either Power Bi or Tableau. ",
       "In this round each team will be allocated with an IPL Team. Each team can retain maximum of 2 players",
@@ -61,23 +70,21 @@ export const eventsData = [
       "Final judgement will be based on both team selection and creation of dashboard in the visualization tool.",
       "---",
       "---",
+      "---",
+      "---",
       "An ideal team size would consist of 3 individuals," ,
       "Individuals who are enrolled in an Undergraduate Degree program are eligible to participate," ,
       "Other details and queries will be discussed in the WhatsApp group," +
       "Judge's Decision will be final"
     ],
-    rounds : [
-      ["Round 1: Online Qualifier","Platform: Quizizz", "Format: MCQ questions covering both Cricket and Data Analytics & Visualization", "Selection: The top 8 teams will advance to the second round conducted in the Offline mode"],
-      ["Round 2: Offline Challenge", "Platform: Power Bi/Tableau"]
-    ],
-    prizes: ["EXICITING PRIZES AND REWARDS"],
+    prizes: ["1st Prize: ₹1000", "2nd Prize: ₹750", "3rd Prize: ₹500"],
     team: "3 Members",
     fees: "Free",
     contactInfo: ["Varun Umasankar - +91 9342469216", "Akash - +91 9080271047"],
-    location: "CC4",
+    location: "BETA HALL",
     date: "28th August",
     note: [
-      "The team that completes the most tasks correctly in the shortest amount of time will be crowned the Code Twisters champions.",
+      "The team that completes the most tasks correctly in the shortest amount of time will be crowned as champions.",
       "If any kind of trolling, offending, or misbehaving seen by participants will not be tolerated.",
     ],
     link: "",
@@ -90,7 +97,7 @@ export const eventsData = [
   {
     id: 3,
     image: "/Posters/royalrumble.png",
-    name: "Royal Rumble",
+    name: "PUBG Tournament",
     eventType:"non-tech",
     description:
         "Join us for an exhilarating PUBG Mobile Tournament! Whether you're a seasoned player or a newcomer looking to showcase your skills, this event promises intense battles, strategic gameplay, and a chance to win exciting prizes.",
@@ -106,8 +113,8 @@ export const eventsData = [
       ["TIme", "07:00 pm  -  09:30 pm"],
         ["Venue", "PUBG Mobile India"]
     ],
-    prizes: ["EXICITING PRIZES AND REWARDS"],
-    team: "3 Members",
+    prizes: ["1st Prize: ₹1000", "2nd Prize: ₹500"],
+    team: "4 Members",
     fees: "Entry Fee : ₹100 - Online Payment (Gpay, PhonePay, Paytm)",
     contactInfo: ["Sabithran - +91 6383876007", "Ramana - +91 9360379069"],
     location: "Online",
@@ -143,8 +150,8 @@ export const eventsData = [
       ["Time", "07:00 pm  -  09:00 pm"],
       ["Venue", "FreeFire Max"]
     ],
-    prizes: ["1st Prize : ₹5000", "2nd Prize : ₹3000"],
-    team: "3 Members",
+    prizes: ["1st Prize : ₹1000", "2nd Prize : ₹500"],
+    team: "4 Members",
     fees: "Entry Fee : ₹199 - Online Payment (Gpay, PhonePay, Paytm)",
     contactInfo: ["Gowtham - +91 7092604589", "Bharath - +91 9345672511"],
     location: "Online",
@@ -169,7 +176,7 @@ export const eventsData = [
     description:
         "Join us in an enlightening journey where you can showcase your research skills and innovative ideas through an engaging paper presentation event. This competition comprises two rounds: an online abstract evaluation and an offline final presentation.",
     rules: [
-      "  FOR  ROUND 2:",
+      "  ROUND 2:",
       "Participants should bring a printed copy of their full research paper and laptop if necessary for presentation.",
       "A softcopy of the full paper must be provided to the organizing team on a pendrive at the venue",
       "Participants should be prepared to present their project in detail along with prototype, model or software application if available.",
@@ -214,8 +221,10 @@ export const eventsData = [
     rules: [
         "    ROUND 1 : Picowit (Online)",
         "Kick things off with Pictowit! Get ready to flex your movie knowledge as you decipher a series of image clues tied to unforgettable movie scenes. Can you guess the film from the visual hints?",
+        "---",
         "    ROUND 2: Fact or Fiction (Offline)",
         "Next up, it's Fact or Fiction! We’ll present you with a set of intriguing statements—your mission is to spot the false one. Sharpen your wits and separate truth from lies!",
+        "---",
         "    ROUND 3: MelodicMimes (Offline)",
         "Finally, brace yourself for MelodicMimes! With headphones blasting music, you'll need to play dumb charades. The tunes will test your focus as you mime your way to victory!",
         "---",
@@ -232,14 +241,14 @@ export const eventsData = [
       ["Venue", "GMeet (Online)"],
       ["What to Expect: ", "Music clues, movie scenes, brain-teasing questions, and tons of fun!\n"]
     ],
-    prizes: ["1st Prize : ₹----", "2nd Prize : ₹----", "3rd Prize : ₹----"],
+    prizes: ["1st Prize : ₹1000", "2nd Prize : ₹750", "3rd Prize : ₹500"],
     team: "2 or 3 Members",
-    fees: "Entry Fee : Free",
-    contactInfo: ["Kaviya : +91 8248894040", "DivyaDarshini : +91 7448467808"],
+    fees: "Free",
+    contactInfo: ["Kaviya : +91 8248894040", "DivyaDharshini : +91 7448467808"],
     location: "Online",
     date: "28th August",
     note: [
-"Gather your team, sharpen your skills, and get ready for a showdown of epic proportions. Let the games begin and may the best team emerge victorious!",
+      "Gather your team, sharpen your skills, and get ready for a showdown of epic proportions. Let the games begin and may the best team emerge victorious!",
       "If any kind of trolling, offending, or misbehaving seen by participants will not be tolerated"
     ],
     link: "",
@@ -256,14 +265,19 @@ export const eventsData = [
     description:
         "Join us in an exciting journey where you can showcase your creativity and analytical skills in the realm of User Interface and User Experience design. This event tests participants' abilities in designing and evaluating UI/UX elements through various innovative challenges. The event comprises two rounds: an online preliminary round and an offline final round.",
     rules: [
-      "  FOR  ROUND 2:",
+        "   ROUND 1: ONLINE QUALIFIER",
+      "Platform: Google Meet",
+      "Format: Participants will be given a UI/UX design topic and must submit their designs using Figma by the end of the day.",
+      "Selection: The top 15 teams will advance to the second round conducted in the offline mode.",
+        "---",
+      "  ROUND 2: OFFLINE CHALLENGE",
       "Each team must bring their own laptop with an ethernet cable.",
       "Participants should have a basic understanding of UI/UX design principles and the Figma tool.",
       "Teams will be given a real-world UI/UX problem to solve and design a prototype.",
       "The main challenge is to create a high-fidelity wireframe and an interactive prototype based on the given problem statement.",
       "The prototype will contain extra marks during evaluation.",
       "Teams will present their designs and thought processes to a panel of judges.",
-      "TFinal judgment will be based on creativity, usability, and presentation.",
+      "Final judgment will be based on creativity, usability, and presentation.",
       "---",
       "---",
       "An ideal team size consists of 2 individuals." ,
@@ -271,15 +285,12 @@ export const eventsData = [
       "Further details and queries will be addressed in the WhatsApp group.",
       "The judge's decision will be final."
     ],
-    rounds : [
-      ["Round 1: Online","Platform: Google Meet", "Format: Participants will be given a UI/UX design topic and must submit their designs using Figma by the end of the day.", "*Selection:* The top 15 teams will advance to the second round conducted in the offline mode."],
-      ["Round 2: Offline"]
-    ],
-    prizes: ["EXICITING PRIZES AND REWARDS"],
+
+    prizes: ["1st Prize: ₹1000", "2nd Prize: ₹750", "3rd Prize: ₹500"],
     team: "2 Members",
     fees: "Free",
-    contactInfo: ["Krishna : +91 9342473202", "SSriraman : +91 80725 86350\n"],
-    location: "---",
+    contactInfo: ["Krishna : +91 9342473202", "Sriraman : +91 80725 86350"],
+    location: "ALPHA HALL",
     date: "28th August",
     note: [
       "Prepare your team, open your minds and think out of the box for this exciting event! Looking forward to meeting you all!",
@@ -300,22 +311,31 @@ export const eventsData = [
     description:
         "Step into the arena of coding and challenge your programming skills in our thrilling CodeSphere event. This competition is designed to test your problem-solving abilities and coding expertise across three intense rounds.\n",
     rules: [
+        "  ROUND 1: ONLINE QUALIFIER",
+      "Platform: Hackerrank",
+      "Format: Participants will face a series of 15 coding questions that must be completed within an hour.",
+      "Selection: The top 20 teams will advance to the next round, conducted in offline mode.",
+        "---",
+      "   ROUND 2: OFFLINE CHALLENGE",
+      "Challenge: Guess the Code" ,
+      "Teams will be provided with sample inputs and outputs. From these, they are asked to deduce the underlying problem and solve it." ,
+      "Accurately guess the problem statement and provide the correct solution to advance to the final round.",
+        "---",
+        "   ROUND 3: ULTIMATE CODING SHUTDOWN",
+        "Challenge: Unlock the Code",
+        "The final questions will be in a password-protected file. To access the questions, teams must first solve a coding puzzle to crack the password.",
+        "Solve the final coding problems to emerge as the ultimate coding champions.",
+        "---",
+        "---",
       "Each team must consist of 2 members." ,
       "Further details and queries will be addressed in the WhatsApp group.",
       "The judge's decision will be final."
     ],
-    rounds : [
-      ["Round 1: Online","Platform: Hackerrank", "Format: Participants will face a series of 15 coding questions that must be completed within an hour.", "Selection: The top 20 teams will advance to the next round, conducted in offline mode."],
-      ["Round 2: Offline", "Challenge: Guess the Code" ,
-      "Teams will be provided with sample inputs and outputs. From these, they are asked to deduce the underlying problem and solve it." ,
-      "Accurately guess the problem statement and provide the correct solution to advance to the final round."],
-        ["Round 3: Offline", "Challenge: Unlock the Code", "The final questions will be in a password-protected file. To access the questions, teams must first solve a coding puzzle to crack the password.", "Solve the final coding problems to emerge as the ultimate coding champions."]
-    ],
-    prizes: ["EXICITING PRIZES AND REWARDS"],
+    prizes: ["1st Prize: ₹1000", "2nd Prize: ₹750", "3rd Prize: ₹500"],
     team: "2 Members",
     fees: "Free",
     contactInfo: ["Jayasundar : +91 9384354051", "Madhumitha : +91 8838717026"],
-    location: "---",
+    location: "CC4",
     date: "28th August",
     note: [
       "Prepare your team, hone your coding skills, and get ready for an exhilarating challenge at CodeSphere! Looking forward to seeing your coding prowess in action!",

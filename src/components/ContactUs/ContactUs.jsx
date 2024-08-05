@@ -7,7 +7,7 @@ const ContactUs = () => {
     return (<>
       <div className={classes.background}>
         <div style={{marginTop: '10%'}}>&nbsp;</div>
-        <h1 style={{color: 'white', fontSize: '4rem', margin:' 10% 3% 3% 3%'}}>Event Coordinators</h1>
+        <h1 style={{color: 'white', fontSize: '4rem', margin:' 10% 3% 3% 3%'}}>OFFICE BEARERS</h1>
         <div className={"profile-secretary"}
              style={{display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10%'}}>
 
@@ -28,7 +28,6 @@ const ContactUs = () => {
             backgroundCoverImage: "https://th.bing.com/th/id/OIP.JA6d8xbMDX97cEz9xAAzhwHaEo?w=525&h=328&rs=1&pid=ImgDetMain"
           }}/>
         </div>
-        <h1 style={{color: 'white', fontSize: '4rem', margin:'3%'}}>Event Secretaries</h1>
 
 
         <div className={"profile-secretary"}
@@ -36,7 +35,7 @@ const ContactUs = () => {
 
           <Profile data={{
             name: "Abhishek Obli",
-            imageUrl: "/Organizers/Obli.jpg",
+            imageUrl: "/Organizers/Obli.png",
             designation: "Secretary",
             phone: "9655236550",
             mail: "sec21it109@sairamtap.edu.in",
@@ -84,7 +83,7 @@ const ContactUs = () => {
                 <label className={classes.input_label}>
                   Message<span className={classes.mandatory}>*</span>
                 </label>
-                <textarea className={classes.message}>Enter text Here</textarea>
+                <textarea className={classes.message} placeholder={"Enter text .. .. .."}></textarea>
               </div>
             </div>
             <div className={classes.button}><Button label="Send"/></div>

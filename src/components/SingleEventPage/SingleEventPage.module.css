@@ -54,7 +54,7 @@
 }
 
 .eventHeading {
-  font-family: "Space Mono", monospace;
+  font-family: "Space Mono", sans-serif;
   font-style: italic;
   text-align: center;
   font-size: 36px;
@@ -78,8 +78,8 @@
 
 .heading,
 .headingp {
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 30px;
+  font-weight: bold;
   background: linear-gradient(to right, #17a970, #3592af, #2345cf, #2383bb);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -93,7 +93,7 @@
 
 .content {
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 300;;
 }
 
 @media screen and (max-width: 768px) {

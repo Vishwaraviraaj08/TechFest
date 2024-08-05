@@ -129,6 +129,8 @@ const SingleEventPage = () => {
 
 .noBullet {
   list-style-type: none;
+  font-weight: bold;
+    margin-bottom: 1rem;
 }
 
 
@@ -188,31 +190,31 @@ const SingleEventPage = () => {
               </div>
             )}
 
-            {
-                requiredEvent.rounds && (
-                    <div className={classes.subheading}>
-                      <h2 className={classes.heading}>Rounds</h2>
-                      <ul>
-                        {requiredEvent.rounds.map((round, i) => (
-                            <li key={i} style={{marginBottom: "1rem"}} className={classes.content}>
-                              <div style={{fontWeight: 'bold', marginBottom: '0.5rem'}}>{round[0]}</div>
-                              <ul>
-                                {round.slice(1).map((detail, j) => (
-                                    <li key={j} style={{marginLeft: "1rem", listStyleType: "circle"}} className={classes.content}>
-                                      {detail}
-                                    </li>
-                                ))}
-                              </ul>
-                            </li>
-                        ))}
-                      </ul>
-                    </div>
-                )
-            }
+            {/*{*/}
+            {/*    requiredEvent.rounds && (*/}
+            {/*        <div className={classes.subheading}>*/}
+            {/*          <h2 className={classes.heading}>Event Details</h2>*/}
+            {/*          <ul>*/}
+            {/*            {requiredEvent.rounds.map((round, i) => (*/}
+            {/*                <li key={i} style={{marginBottom: "1rem"}} className={classes.content}>*/}
+            {/*                  <div style={{fontWeight: 'bold', marginBottom: '0.5rem'}}>{round[0]}</div>*/}
+            {/*                  <ul>*/}
+            {/*                    {round.slice(1).map((detail, j) => (*/}
+            {/*                        <li key={j} style={{marginLeft: "1rem", listStyleType: "circle"}} className={classes.content}>*/}
+            {/*                          {detail}*/}
+            {/*                        </li>*/}
+            {/*                    ))}*/}
+            {/*                  </ul>*/}
+            {/*                </li>*/}
+            {/*            ))}*/}
+            {/*          </ul>*/}
+            {/*        </div>*/}
+            {/*    )*/}
+            {/*}*/}
 
             {rules && (
                 <div className={classes.subheading}>
-                  <h2 className={classes.heading}>Rules and Regulations</h2>
+                  <h2 className={classes.heading}>Rounds</h2>
                   <ul>
                     {rules.map((rule, i) => {
 
