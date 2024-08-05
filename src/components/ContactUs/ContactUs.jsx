@@ -30,6 +30,7 @@ const ContactUs = () => {
         </div>
 
 
+
         <div className={"profile-secretary"}
              style={{display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10%'}}>
 
