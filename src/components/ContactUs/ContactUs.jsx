@@ -54,7 +54,7 @@ const ContactUs = () => {
             name: "Naveen Kumar",
             imageUrl: "/Organizers/Naveen.jpg",
             designation: "Secretary",
-            phone: "9884106752",
+            phone: "6374974153",
             mail: "sec21it057@sairamtap.edu.in",
             backgroundCoverImage: "https://img.freepik.com/premium-photo/hallway-with-neon-lights-wall_787273-1422.jpg"
           }}/>

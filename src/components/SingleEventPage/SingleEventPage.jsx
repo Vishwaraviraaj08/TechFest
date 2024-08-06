@@ -143,7 +143,7 @@ const SingleEventPage = () => {
             <img className={classes.eventPoster} src={image} alt="eventName"/>
 
             <div className={"button"} style={{marginTop:'3rem'}}>
-            <a href={"https://www.google.com"} target={"_blank"}>
+            {/* <a href={"https://www.google.com"} target={"_blank"}>
             <button className="animated-button">
               <svg viewBox="0 0 24 24" className="arr-2" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -158,7 +158,7 @@ const SingleEventPage = () => {
                 ></path>
               </svg>
             </button>
-            </a>
+            </a> */}
             </div>
 
 

@@ -161,7 +161,7 @@ export const eventsData = [
       "Map: Bermuda - Battle Royale Mode",
       "Prepare your squad, strategize, and dive into the battlegrounds for an unforgettable gaming experience. May the best team win!",
     ],
-    link: "https://forms.gle/yLVxvr3buhMLeB6h9",
+    link: "https://forms.gle/nWZBoHAS1iNaqgePA",
   },
 
 
