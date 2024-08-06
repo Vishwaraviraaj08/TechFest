@@ -8,6 +8,14 @@ const Hero = () => {
     <section id="home" className={classes.hero}>
       <div className={classes.herobox}>
         <div className={classes.headerbox}>
+          <h1 className={classes.college} style={{textAlign:'center',fontSize:'3.7rem',color:''}}>SRI SAIRAM ENGINEERING COLLEGE</h1>
+          <br />
+          <br />
+          <h1 className={classes.college} style={{textAlign:'center',fontSize:'2.5rem'}}>Department of Information Technology </h1>
+          <h1 className={classes.college} style={{textAlign:'center',fontSize:'2.5rem'}}>Presents</h1>
+      
+
+          
           <h1 className={classes.heading} style={{textAlign:'center', marginBottom:'4rem'}}>FLARENDO '24</h1>
           <h4 className={classes.caption}>Let's make a tech move!</h4>
           <p className={classes.date}>August 28, 2024</p>

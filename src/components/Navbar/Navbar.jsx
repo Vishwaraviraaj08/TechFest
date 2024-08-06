@@ -75,7 +75,7 @@ const Navbar = () => {
                 </Link>
               </Drop>
             </li>
-            <li className={classes.navLink}>
+            {/* <li className={classes.navLink}>
               <Drop
                 activeClass={classes.active}
                 to="about"
@@ -89,7 +89,7 @@ const Navbar = () => {
                   About
                 </Link>
               </Drop>
-            </li>
+            </li> */}
             <Link to="/events">
               <li
                 className={`${classes.dropLink}`}

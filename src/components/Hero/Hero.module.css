@@ -31,7 +31,17 @@
   height: 100%;
   padding: 4rem;
 }
-
+.college {
+  font-family: myFirstFont;
+  font-size: 3rem;
+  font-weight: bolder;
+  display: inline-block;
+  background-image:  linear-gradient(to bottom, #fff, #0263ad);
+  /* color: #fff; */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .headerbox {
   display: flex;
   flex-direction: column;
@@ -57,9 +67,14 @@
 
 .caption {
   font-style: italic;
-  color: #fff;
+  display: inline-block;
+  background-image:  linear-gradient(to bottom, #fff, #0263ad);
+  /* color: #fff; */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 2rem;
-  font-weight: 300;
+  font-weight: bolder;
 }
 
 .btn {
@@ -90,7 +105,12 @@
 }
 
 .date {
-  color: #fff;
+  display: inline-block;
+  background-image:  linear-gradient(to bottom, #fff, #0263ad);
+  /* color: #fff; */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 3rem;
   font-weight: 700;
   margin-top: 2rem;

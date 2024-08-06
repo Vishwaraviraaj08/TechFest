@@ -40,7 +40,7 @@ export const eventsData = [
       "The team that completes the most tasks correctly in the shortest amount of time will be crowned the Code Twisters champions.",
       "If any kind of trolling, offending, or misbehaving seen by participants will not be tolerated.",
     ],
-    link: "https://forms.google.com",
+    link: "https://forms.gle/84SvhN4JAdHMANxr7",
   },
 
 
@@ -87,7 +87,7 @@ export const eventsData = [
       "The team that completes the most tasks correctly in the shortest amount of time will be crowned as champions.",
       "If any kind of trolling, offending, or misbehaving seen by participants will not be tolerated.",
     ],
-    link: "",
+    link: "https://forms.gle/agV22neXzqGcFwy39",
   },
 
 
@@ -125,7 +125,7 @@ export const eventsData = [
 
       "Prepare your squad, strategize, and dive into the battlegrounds for an unforgettable gaming experience. May the best team win!",
     ],
-    link: "",
+    link: "https://forms.gle/yLVxvr3buhMLeB6h9",
   },
 
 
@@ -161,7 +161,7 @@ export const eventsData = [
       "Map: Bermuda - Battle Royale Mode",
       "Prepare your squad, strategize, and dive into the battlegrounds for an unforgettable gaming experience. May the best team win!",
     ],
-    link: "",
+    link: "https://forms.gle/yLVxvr3buhMLeB6h9",
   },
 
 
@@ -176,7 +176,12 @@ export const eventsData = [
     description:
         "Join us in an enlightening journey where you can showcase your research skills and innovative ideas through an engaging paper presentation event. This competition comprises two rounds: an online abstract evaluation and an offline final presentation.",
     rules: [
-      "  ROUND 2:",
+      "  Round 1: Online Abstract Evaluation", 
+      "Platform:  Email or Google Form", "Format: Participants will submit their paper abstracts via email.",
+      "Selection: The top teams will be shortlisted based on the quality of their abstracts and will receive an email invitation to the final round held in college premises.",
+      "  ",
+      "  ",
+      "  ROUND 2: Offline Final Presentation",
       "Participants should bring a printed copy of their full research paper and laptop if necessary for presentation.",
       "A softcopy of the full paper must be provided to the organizing team on a pendrive at the venue",
       "Participants should be prepared to present their project in detail along with prototype, model or software application if available.",
@@ -190,7 +195,20 @@ export const eventsData = [
       "An ideal team size consists of 2-4 members." ,
       "Abstracts should be original and not previously published or presented." ,
       "Further details and queries will be addressed in the WhatsApp group.",
-      "The judge's decision will be final."
+      "The judge's decision will be final.",
+      "  ",
+      "  ",
+      "  Topics",
+      "Neuromorphic computing",
+      "Robot control systems", 
+      "Smart grid systems",
+      "Artificial intelligence",
+      "Machine learning , deep learning",
+      "Embedded systems",
+      "Cybersecurity",  
+      "IOT",
+      "Blockchain",
+      "AR/VR",
     ],
     rounds : [
       ["Round 1: Online Abstract Evaluation","Platform:  Email or Google Form", "Format: Participants will submit their paper abstracts via email.", "Selection: The top teams will be shortlisted based on the quality of their abstracts and will receive an email invitation to the final round held in college premises."],
@@ -206,7 +224,7 @@ export const eventsData = [
         "Prepare your team, delve into your research, and present your findings for this intellectually stimulating event!",
       "If any kind of trolling, offending, or misbehaving seen by participants will not be tolerated.",
     ],
-    link: "",
+    link: "https://forms.gle/JY3iK4YBH4sodRLk8",
   },
 
 
@@ -251,7 +269,7 @@ export const eventsData = [
       "Gather your team, sharpen your skills, and get ready for a showdown of epic proportions. Let the games begin and may the best team emerge victorious!",
       "If any kind of trolling, offending, or misbehaving seen by participants will not be tolerated"
     ],
-    link: "",
+    link: "https://forms.gle/JY3iK4YBH4sodRLk8",
   },
 
 
@@ -296,7 +314,7 @@ export const eventsData = [
       "Prepare your team, open your minds and think out of the box for this exciting event! Looking forward to meeting you all!",
       "If any kind of trolling, offending, or misbehaving seen by participants will not be tolerated.",
     ],
-    link: "",
+    link: "https://forms.gle/JY3iK4YBH4sodRLk8",
   },
 
 
@@ -341,7 +359,7 @@ export const eventsData = [
       "Prepare your team, hone your coding skills, and get ready for an exhilarating challenge at CodeSphere! Looking forward to seeing your coding prowess in action!",
       "If any kind of trolling, offending, or misbehaving seen by participants will not be tolerated.",
     ],
-    link: "",
+    link: "https://forms.gle/MREcNSvd4fNzdhPS7",
   },
 
 

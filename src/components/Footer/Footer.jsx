@@ -3,8 +3,8 @@ import classes from "./Footer.module.css";
 
 // const sambhavitwitter=''
 
-const insta = "https://www.instagram.com/";
-const linkedin = "https://www.linkedin.com/in/";
+const insta = "https://www.instagram.com/xtrofest_5.0?igsh=d3lmdThpMWhiZ2Vw";
+const linkedin = "https://www.linkedin.com/in/sairam-secit-417383218/?originalSubdomain=in";
 
 const Footer = () => {
   return (
@@ -24,7 +24,7 @@ const Footer = () => {
             </div>
           </div>
           <p className={classes.footer_sambhav_description} style={{fontSize:'1.5rem', textAlign:'justify'}}>
-            FLARENDO '24 is One of the Largest Technical festival of Information Technology Department by Sri Sairam ENgineering College. Let&apos;s
+            FLARENDO '24 is One of the Largest Technical festival of Information Technology Department by Sri Sairam Engineering College. Let&apos;s
             make a Tech move.
           </p>
         </div>
@@ -91,10 +91,10 @@ const Footer = () => {
               />
             </div>
             <div>
-              <p>Sairam Engineering College, West Tambaram</p>
+              <p>Sri Sairam Engineering College, West Tambaram</p>
             </div>
           </div>
-          <div className={classes.footer_contact}>
+          {/* <div className={classes.footer_contact}>
             <div>
               <img
                 className={classes.footer_contact_image}
@@ -105,7 +105,7 @@ const Footer = () => {
             <div>
               <p>044 - 2251 2222</p>
             </div>
-          </div>
+          </div> */}
           <div className={classes.footer_contact}>
             <div>
               <img
