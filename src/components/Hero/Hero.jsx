@@ -12,8 +12,10 @@ const Hero = () => {
           <br />
           <br />
           <h1 className={classes.college} style={{textAlign:'center',fontSize:'2.5rem'}}>Department of Information Technology </h1>
+          <br />
           <h1 className={classes.college} style={{textAlign:'center',fontSize:'2.5rem'}}>Presents</h1>
-      
+          <br />
+          <br />
 
           
           <h1 className={classes.heading} style={{textAlign:'center', marginBottom:'4rem'}}>FLARENDO '24</h1>

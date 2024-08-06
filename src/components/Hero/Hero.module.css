@@ -150,6 +150,9 @@
     background-position: center center;
     /* margin-top: 650px; */
   }
+  .college{
+    font-size: 2.5rem !important;
+  }
 
   .logo {
     width: 50rem;
