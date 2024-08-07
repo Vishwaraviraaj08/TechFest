@@ -1,7 +1,7 @@
 export const eventsData = [
   {
     id: 1,
-    image: "/Posters/CodeTwisters.png",
+    image: "/Posters/CodeTwisters.jpg",
     name: "Code Twisters",
     eventType:"tech",
     description:
@@ -48,7 +48,7 @@ export const eventsData = [
 
   {
     id: 2,
-    image: "/Posters/bidviz.png",
+    image: "/Posters/bitviz.jpg",
     name: "Bidviz",
     eventType:"tech",
     description:
@@ -96,7 +96,7 @@ export const eventsData = [
 
   {
     id: 3,
-    image: "/Posters/royalrumble.png",
+    image: "/Posters/Pubg.jpg",
     name: "PUBG Tournament",
     eventType:"non-tech",
     description:
@@ -133,7 +133,7 @@ export const eventsData = [
 
   {
     id: 4,
-    image: "/Posters/fftournament.png",
+    image: "/Posters/fftournament.jpg",
     name: "Free Fire Tournament",
     eventType:"non-tech",
     description:
@@ -170,7 +170,7 @@ export const eventsData = [
 
   {
     id: 5,
-    image: "/Posters/IdeaForge.png",
+    image: "/Posters/IdeaForge.jpg",
     name: "IDEA FORGE",
     eventType:"tech",
     description:
@@ -231,7 +231,7 @@ export const eventsData = [
 
   {
     id: 6,
-    image: "/Posters/TuneQuest.png",
+    image: "/Posters/TuneQuest.jpg",
     name: "TuneQuest",
     eventType:"non-tech",
     description:
@@ -277,7 +277,7 @@ export const eventsData = [
 
   {
     id: 7,
-    image: "/Posters/UIUX.png",
+    image: "/Posters/UIUX.jpg",
     name: "UI/UX Battle Royale",
     eventType:"tech",
     description:
@@ -323,7 +323,7 @@ export const eventsData = [
 
   {
     id: 8,
-    image: "/Posters/CodeSphere.png",
+    image: "/Posters/CodeSphere.jpg",
     name: "CodeSphere",
     eventType:"tech",
     description:
