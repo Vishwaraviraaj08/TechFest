@@ -9,7 +9,7 @@ export const eventsData = [
     rules: [
         "  ROUND 1 : ONLINE QUALIFIER",
         "Platform: Quizz",
-        "Format: 30 questions covering C, Python, Java, HTML, and CSS",
+        "Format: 30 questions covering C, Python, Java",
         "Type of Questions: Find the error, identify the missing line in the code, etc.",
         "Duration: Specific time allotted for all 30 questions",
         "---",
@@ -23,7 +23,6 @@ export const eventsData = [
         "  ROUND 3 : ULTIMATE CODING SHUTDOWN",
         "Only one team member codes at a time, for a maximum of 3 minutes.",
         "The other team member is not allowed to see the code during this time.",
-        "Team members switch roles every 3 minutes.",
         "Team members switch roles every 3 minutes.",
         "The coding team member will listen to music through headphones while coding.",
       ],
@@ -97,10 +96,10 @@ export const eventsData = [
   {
     id: 3,
     image: "/Posters/Pubg.jpg",
-    name: "PUBG Tournament",
+    name: "BGMI Tournament",
     eventType:"non-tech",
     description:
-        "Join us for an exhilarating PUBG Mobile Tournament! Whether you're a seasoned player or a newcomer looking to showcase your skills, this event promises intense battles, strategic gameplay, and a chance to win exciting prizes.",
+        "Join us for an exhilarating BGMI Mobile Tournament! Whether you're a seasoned player or a newcomer looking to showcase your skills, this event promises intense battles, strategic gameplay, and a chance to win exciting prizes.",
     rules: [
       "Each team must consist of 4 players.",
         "Players must adhere to fair play and sportsmanship.",
@@ -111,7 +110,7 @@ export const eventsData = [
     rounds : [
       ["Date","23 / 08 / 2024"],
       ["TIme", "07:00 pm  -  09:30 pm"],
-        ["Venue", "PUBG Mobile India"]
+        ["Venue", "BGMI Mobile India"]
     ],
     prizes: ["1st Prize: ₹1000", "2nd Prize: ₹500"],
     team: "4 Members",
@@ -152,7 +151,7 @@ export const eventsData = [
     ],
     prizes: ["1st Prize : ₹1000", "2nd Prize : ₹500"],
     team: "4 Members",
-    fees: "Entry Fee : ₹199 - Online Payment (Gpay, PhonePay, Paytm)",
+    fees: "Entry Fee : ₹100 - Online Payment (Gpay, PhonePay, Paytm)",
     contactInfo: ["Gowtham - +91 7092604589", "Bharath - +91 9345672511"],
     location: "Online",
     date: "28th August",
@@ -161,7 +160,7 @@ export const eventsData = [
       "Map: Bermuda - Battle Royale Mode",
       "Prepare your squad, strategize, and dive into the battlegrounds for an unforgettable gaming experience. May the best team win!",
     ],
-    link: "https://forms.gle/nWZBoHAS1iNaqgePA",
+    link: "https://forms.gle/DacD8jh83oDhVzpA6",
   },
 
 
@@ -174,51 +173,48 @@ export const eventsData = [
     name: "IDEA FORGE",
     eventType:"tech",
     description:
-        "Join us in an enlightening journey where you can showcase your research skills and innovative ideas through an engaging paper presentation event. This competition comprises two rounds: an online abstract evaluation and an offline final presentation.",
+        "IDEA FORGE  is an enlightening event where you can showcase your innovative ideas through an project presentation event. This competition comprises two rounds: 1. Online Abstract Evaluation 2. Offline Presentation.",
+    
+        
+
     rules: [
       "  Round 1: Online Abstract Evaluation", 
-      "Platform:  Email or Google Form", "Format: Participants will submit their paper abstracts via email.",
+      "Platform:  Email or Google Form", "Format: Participants will submit their abstracts via Google form.",
       "Selection: The top teams will be shortlisted based on the quality of their abstracts and will receive an email invitation to the final round held in college premises.",
       "  ",
       "  ",
       "  ROUND 2: Offline Final Presentation",
-      "Participants should bring a printed copy of their full research paper and laptop if necessary for presentation.",
-      "A softcopy of the full paper must be provided to the organizing team on a pendrive at the venue",
-      "Participants should be prepared to present their project in detail along with prototype, model or software application if available.",
-      "Teams will have the opportunity to showcase their project, explain the development stages, and discuss the project's impact.",
-      "The main challenge is to effectively communicate the project's innovation, feasibility, and practicality.",
-      "The quality of the presentation, clarity of ideas, and the project’s potential impact will carry extra marks during evaluation.",
-      "Teams will present their projects to a panel of judges, followed by a Q&A session.",
-      "Final judgment will be based on innovation, practicality, and presentation.",
+      "A softcopy of the ppt must be uploaded in the drive link, which will be provided in the WhatsApp group.",
+      "Participants should be prepared to present their project in detail along with their prototype, model or demo.",
+      "Final judgment will be given by the panel members.",
+      // "Teams will have the opportunity to showcase their project, explain the development stages, and discuss the project's impact.",
+      // "The main challenge is to effectively communicate the project's innovation, feasibility, and practicality.",
+      // "The quality of the presentation, clarity of ideas, and the project’s potential impact will carry extra marks during evaluation.",
+      // "Teams will present their projects to a panel of judges, followed by a Q&A session.",
+      // "Final judgment will be based on innovation, practicality, and presentation.",
       "---",
       "---",
+      "  Rules and Regulations",
       "An ideal team size consists of 2-4 members." ,
-      "Abstracts should be original and not previously published or presented." ,
+      "The ppt should follow the given template in Google Form" ,
+      "Only team leaders should register and join the what's app group.",
       "Further details and queries will be addressed in the WhatsApp group.",
-      "The judge's decision will be final.",
       "  ",
       "  ",
       "  Topics",
-      "Neuromorphic computing",
-      "Robot control systems", 
-      "Smart grid systems",
-      "Artificial intelligence",
-      "Machine learning , deep learning",
-      "Embedded systems",
-      "Cybersecurity",  
-      "IOT",
-      "Blockchain",
-      "AR/VR",
+      "All projects must align with one of the 17 United Nations Sustainable Development Goals (SDGs), incorporating its principles and objectives into the project's core mission and outcomes.",
     ],
     rounds : [
       ["Round 1: Online Abstract Evaluation","Platform:  Email or Google Form", "Format: Participants will submit their paper abstracts via email.", "Selection: The top teams will be shortlisted based on the quality of their abstracts and will receive an email invitation to the final round held in college premises."],
       ["Round 2: Offline Final Presentation"]
     ],
-    prizes: ["EXICITING PRIZES AND REWARDS"],
+    prizes: ["First, Second and third positions will be given prizes.",
+             "The top 5 teams will win exciting opportunities."
+    ],
     team: "2 - 4 Members",
     fees: "Free",
     contactInfo: ["Nithya Shree : +91 9789039777", "Sathyabama : +91 8072246189"],
-    location: "---",
+    location: "CC2",
     date: "28th August",
     note: [
         "Prepare your team, delve into your research, and present your findings for this intellectually stimulating event!",
@@ -237,11 +233,12 @@ export const eventsData = [
     description:
         "Get ready for an electrifying event filled with music, movies and endless entertainment! TuneQuest is an ultimate fun-filled challenge where your instinctive knowledge is put to the test. Immerse yourself in a world of intriguing clues, from catchy tunes to iconic movie scenes, all designed to wire your brain and spark your creativity.   Whether you're a music aficionado, a movie buff, or just love a good challenge, TuneQuest promises fun, excitement, and loads of entertainment. Stay tuned and prepare for a day of nonstop fun!",
     rules: [
-        "    ROUND 1 : Picowit (Online)",
-        "Kick things off with Pictowit! Get ready to flex your movie knowledge as you decipher a series of image clues tied to unforgettable movie scenes. Can you guess the film from the visual hints?",
+        "    ROUND 1 : Fact or Fiction (Online)",
+        "    Timings  : 25th August, 7:00 pm - 9:00 pm",
+        "It's Fact or Fiction! We’ll present you with a set of intriguing statements—your mission is to spot the false one. Sharpen your wits and separate truth from lies!",
         "---",
-        "    ROUND 2: Fact or Fiction (Offline)",
-        "Next up, it's Fact or Fiction! We’ll present you with a set of intriguing statements—your mission is to spot the false one. Sharpen your wits and separate truth from lies!",
+        "    ROUND 2:  Picowit (Offline)",
+        "Kick things off with Pictowit! Get ready to flex your movie knowledge as you decipher a series of image clues tied to unforgettable movie scenes. Can you guess the film from the visual hints?",
         "---",
         "    ROUND 3: MelodicMimes (Offline)",
         "Finally, brace yourself for MelodicMimes! With headphones blasting music, you'll need to play dumb charades. The tunes will test your focus as you mime your way to victory!",
@@ -269,7 +266,7 @@ export const eventsData = [
       "Gather your team, sharpen your skills, and get ready for a showdown of epic proportions. Let the games begin and may the best team emerge victorious!",
       "If any kind of trolling, offending, or misbehaving seen by participants will not be tolerated"
     ],
-    link: "https://forms.gle/JY3iK4YBH4sodRLk8",
+    link: "https://forms.gle/it9vw2yKqK89NJ9p9",
   },
 
 
@@ -314,7 +311,7 @@ export const eventsData = [
       "Prepare your team, open your minds and think out of the box for this exciting event! Looking forward to meeting you all!",
       "If any kind of trolling, offending, or misbehaving seen by participants will not be tolerated.",
     ],
-    link: "https://forms.gle/JY3iK4YBH4sodRLk8",
+    link: "https://forms.gle/mYCsjLjEhC7sef1Y9",
   },
 
 
