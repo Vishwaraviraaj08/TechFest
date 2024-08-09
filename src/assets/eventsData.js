@@ -200,7 +200,7 @@ export const eventsData = [
       "---",
       "  Rules and Regulations",
       "An ideal team size consists of 2-4 members." ,
-      "The ppt should follow the given template in Google Form" ,
+      "The ppt should follow the given template in WhatsApp group.", ,
       "Only team leaders should register and join the what's app group.",
       "Further details and queries will be addressed in the WhatsApp group.",
       "  ",
