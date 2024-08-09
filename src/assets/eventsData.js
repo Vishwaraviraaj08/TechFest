@@ -224,7 +224,7 @@ export const eventsData = [
         "Prepare your team, delve into your research, and present your findings for this intellectually stimulating event!",
       "If any kind of trolling, offending, or misbehaving seen by participants will not be tolerated.",
     ],
-    link: "https://forms.gle/JY3iK4YBH4sodRLk8",
+    link: "https://forms.gle/37TATWdb5tMepkSS8",
   },
 
 
