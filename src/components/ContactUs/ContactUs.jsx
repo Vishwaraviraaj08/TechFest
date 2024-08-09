@@ -4,6 +4,8 @@ import Button from "../common/Button/Button";
 import Profile from "../ProfileCard/Profile";
 import emailjs from 'emailjs-com';
 
+
+
 const ContactUs = () => {
   const formRef = useRef();
 
@@ -87,34 +89,37 @@ const ContactUs = () => {
           backgroundCoverImage: "https://img.freepik.com/premium-photo/hallway-with-neon-lights-wall_787273-1422.jpg"
         }}/>
       </div>
-      {/* <h1 style={{ color: 'white', fontSize: '4rem', margin: '10% 3% 3% 3%' }}>STAFF CO-ORDINATORS</h1>
-      <div className={"profile-secretary"}
-           style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10%' }}>
-        <Profile data={{
-          name: "Valarmathi",
-          imageUrl: "/Organizers/Obli.png",
-          designation: "Secretary",
-          phone: "9655236550",
-          mail: "sec21it109@sairamtap.edu.in",
-          backgroundCoverImage: "https://th.bing.com/th/id/OIP.d0P6wkVcQXrflDByh9QD9wAAAA?rs=1&pid=ImgDetMain"
-        }}/>
-        <Profile data={{
-          name: "Vasanthan ",
-          imageUrl: "/Organizers/Hari.png",
-          designation: "Secretary",
-          phone: "9342801642",
-          mail: "sec21it052@sairamtap.edu.in",
-          backgroundCoverImage: "https://th.bing.com/th/id/OIP.vten8hXB10zmVRpJKmCfRQHaE9?w=626&h=419&rs=1&pid=ImgDetMain"
-        }}/>
-        <Profile data={{
-          name: "Naveen Kumar",
-          imageUrl: "/Organizers/Naveen.jpg",
-          designation: "Secretary",
-          phone: "6374974153",
-          mail: "sec21it057@sairamtap.edu.in",
-          backgroundCoverImage: "https://img.freepik.com/premium-photo/hallway-with-neon-lights-wall_787273-1422.jpg"
-        }}/>
-      </div> */}
+
+
+      <h1 style={{ color: 'white', fontSize: '4rem', margin: '3% 3% 3% 3%' }}>STAFF COORDINATORS</h1>
+      <div className={classes.card1}>
+    <div className="card" style={{ backgroundColor: 'rgba(255, 255, 255, 0.1)', padding: '20px', borderRadius: '10px', textAlign: 'center', color: 'white' }}>
+        <h2 style={{ fontSize: '2rem' }}>Valarmathi</h2>
+        <br />
+        <p style={{ fontSize: '1.5rem' }}>9791092069</p>
+        <br />
+        <p style={{ fontSize: '1.5rem' }}>valarmathi.it@sairam.edu.in</p>
+    </div>
+    <div className="card" style={{ backgroundColor: 'rgba(255, 255, 255, 0.1)', padding: '20px', borderRadius: '10px', textAlign: 'center', color: 'white' }}>
+        <h2 style={{ fontSize: '2rem' }}>Vasanthan</h2>
+        <br />
+        <p style={{ fontSize: '1.5rem' }}>9094789110</p>
+        <br />
+        <p style={{ fontSize: '1.5rem' }}>vasanthan.it@sairam.edu.in</p>
+    </div>
+    <div className="card" style={{ backgroundColor: 'rgba(255, 255, 255, 0.1)', padding: '20px', borderRadius: '10px', textAlign: 'center', color: 'white' }}>
+        <h2 style={{ fontSize: '2rem' }}>Sheeba</h2>
+        <br />
+        <p style={{ fontSize: '1.5rem' }}>9486197662</p>
+        <br />
+        <p style={{ fontSize: '1.5rem' }}>sheeba.it@sairam.edu.in</p>
+    </div>
+</div>
+
+
+  
+
+
 
       <div className={classes.card}>
         <div className={classes.card2}>

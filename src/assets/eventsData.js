@@ -101,6 +101,7 @@ export const eventsData = [
     description:
         "Join us for an exhilarating BGMI Mobile Tournament! Whether you're a seasoned player or a newcomer looking to showcase your skills, this event promises intense battles, strategic gameplay, and a chance to win exciting prizes.",
     rules: [
+      
       "Each team must consist of 4 players.",
         "Players must adhere to fair play and sportsmanship.",
         "Any form of cheating or hacking will result in immediate disqualification.",
@@ -113,12 +114,14 @@ export const eventsData = [
         ["Venue", "BGMI Mobile India"]
     ],
     prizes: ["1st Prize: ₹1000", "2nd Prize: ₹500"],
+    
     team: "4 Members",
     fees: "Entry Fee : ₹100 - Online Payment (Gpay, PhonePay, Paytm)",
     contactInfo: ["Sabithran - +91 6383876007", "Ramana - +91 9360379069"],
     location: "Online",
     date: "28th August",
     note: [
+      "   Entry Fee - ₹100 per team",
         "Game Mode: Squad (4 players per team)",
         "Map: Erangel (no event mode)",
 
@@ -156,6 +159,7 @@ export const eventsData = [
     location: "Online",
     date: "28th August",
     note: [
+      "   Entry Fee - ₹100 per team",
       "Game Mode: Squad (4 players per team)",
       "Map: Bermuda - Battle Royale Mode",
       "Prepare your squad, strategize, and dive into the battlegrounds for an unforgettable gaming experience. May the best team win!",
