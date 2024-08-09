@@ -80,6 +80,9 @@ const Footer = () => {
           </div>
         </div>
 
+
+       
+
         <div className={classes.footer_third}>
           <h2 className={classes.footer_menu_heading} style={{fontFamily: 'sans-serif'}}>Contact Us</h2>
           <div className={classes.footer_contact}>
@@ -121,7 +124,40 @@ const Footer = () => {
         </div>
       </div>
 
+
+       {/*  */}
+       <div className={classes.footer_creator_div}>
+        <h4 className={classes.footer_creator}>
+          Website designed and created by{" "}
+          <a
+            href={"https://github.com/vishwaraviraaj08"}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={classes.footer_a_link}
+          >
+            {" "}
+            @VishwaRaviraaj
+          </a>{" "}
+          and{" "}
+          <a
+            href={"https://github.com/sujay-0304"}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={classes.footer_a_link}
+          >
+            {" "}
+            @Sujay
+          </a>{" "}
+         
+        </h4>
+      </div>
+
+
+        {/*  */}
+
     </div>
+
+    
   );
 };
 
