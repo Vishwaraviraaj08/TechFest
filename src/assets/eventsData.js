@@ -20,7 +20,7 @@ export const eventsData = [
         "Team members switch roles every 5 minutes.",
         "The screen will be tilted to add an extra layer of difficulty.",
         "---",
-        "  ROUND 3 : ULTIMATE CODING SHUTDOWN",
+        "  ROUND 3 : ULTIMATE CODING SHOWDOWN",
         "Only one team member codes at a time, for a maximum of 3 minutes.",
         "The other team member is not allowed to see the code during this time.",
         "Team members switch roles every 3 minutes.",
