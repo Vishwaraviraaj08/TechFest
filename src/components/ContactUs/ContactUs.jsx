@@ -91,7 +91,7 @@ const ContactUs = () => {
       </div>
 
 
-      <h1 style={{ color: 'white', fontSize: '4rem', margin: '3% 3% 3% 3%' }}>STAFF COORDINATORS</h1>
+      <h1 style={{ color: 'white', fontSize: '4rem', margin: '1%' }}>STAFF COORDINATORS</h1>
       <div className={classes.card1}>
     <div className="card" style={{ backgroundColor: 'rgba(255, 255, 255, 0.1)', padding: '20px', borderRadius: '10px', textAlign: 'center', color: 'white' }}>
         <h2 style={{ fontSize: '2rem' }}>Valarmathi</h2>
