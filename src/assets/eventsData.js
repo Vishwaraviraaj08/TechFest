@@ -1,46 +1,48 @@
 export const eventsData = [
+
+  
+
   {
     id: 1,
-    image: "/Posters/CodeTwisters.jpg",
-    name: "Code Twisters",
+    image: "/Posters/CodeSphere.jpg",
+    name: "CodeSphere",
     eventType:"tech",
     description:
-      "Code Twisters is a captivating coding competition designed to push your programming limits, foster teamwork, and introduce unique challenges. As part of our department symposium, this event promises a mix of online and offline rounds with intriguing twists to keep you on your toes.",
+        "Step into the arena of coding and challenge your programming skills in our thrilling CodeSphere event. This competition is designed to test your problem-solving abilities and coding expertise across three intense rounds.\n",
     rules: [
-        "  ROUND 1 : ONLINE QUALIFIER",
-        "Platform: Quizizz",
-        "Format: 30 questions covering C, Python, Java",
-        "Type of Questions: Find the error, identify the missing line in the code, etc.",
-        "Duration: Specific time allotted for all 30 questions",
+        "  ROUND 1: ONLINE QUALIFIER",
+      "Platform: Hackerrank",
+      "Format: Participants will face a series of 15 coding questions that must be completed within an hour.",
+      "Selection: The top 20 teams will advance to the next round, conducted in offline mode.",
         "---",
-        "  ROUND 2 : OFFLINE CHALLENGE",
-        "Platform: HackerRank",
-        "Only one team member codes at a time, for a maximum of 5 minutes.",
-        "The other team member is not allowed to see the code during this time.",
-        "Team members switch roles every 5 minutes.",
-        "The screen will be tilted to add an extra layer of difficulty.",
+      "   ROUND 2: OFFLINE CHALLENGE",
+      "Challenge: Guess the Code" ,
+      "Teams will be provided with sample inputs and outputs. From these, they are asked to deduce the underlying problem and solve it." ,
+      "Accurately guess the problem statement and provide the correct solution to advance to the final round.",
         "---",
-        "  ROUND 3 : ULTIMATE CODING SHOWDOWN",
-        "Only one team member codes at a time, for a maximum of 3 minutes.",
-        "The other team member is not allowed to see the code during this time.",
-        "Team members switch roles every 3 minutes.",
-        "The coding team member will listen to music through headphones while coding.",
-      ],
+        "   ROUND 3: ULTIMATE CODING SHUTDOWN",
+        "Challenge: Mystery round",
+        "Rules will be revealed on the spot.",
+        "Teams will face a series of coding challenges that must be completed within a specified time frame.",
+        "---",
+        "---",
+      "Each team must consist of 2 members." ,
+      "Further details and queries will be addressed in the WhatsApp group.",
+      "The judge's decision will be final."
+    ],
     prizes: ["1st Prize: ₹1000", "2nd Prize: ₹750", "3rd Prize: ₹500"],
     team: "2 Members",
     fees: "Free",
-    contactInfo: [
-      "Sabari Srinivas : +91 9003054882",
-      "Saranya: +91 6380336458"
-    ],
+    contactInfo: ["Jayasundar : +91 9384354051", "Madhumitha : +91 8838717026"],
     location: "CC4",
     date: "28th August",
     note: [
-      "The team that completes the most tasks correctly in the shortest amount of time will be crowned the Code Twisters champions.",
+      "Prepare your team, hone your coding skills, and get ready for an exhilarating challenge at CodeSphere! Looking forward to seeing your coding prowess in action!",
       "If any kind of trolling, offending, or misbehaving seen by participants will not be tolerated.",
     ],
-    link: "https://forms.gle/84SvhN4JAdHMANxr7",
+    link: "https://forms.gle/MREcNSvd4fNzdhPS7",
   },
+
 
 
 
@@ -282,7 +284,7 @@ export const eventsData = [
     name: "UI/UX Battle Royale",
     eventType:"tech",
     description:
-        "Join us in an exciting journey where you can showcase your creativity and analytical skills in the realm of User Interface and User Experience design. This event tests participants' abilities in designing and evaluating UI/UX elements through various innovative challenges. The event comprises two rounds: an online preliminary round and an offline final round.",
+        "Join us in an exciting journey where you can showcase your creativity and analytical skills in the realm of User Interface and User Experience design. This event tests participants' abilities in designing and evaluating UI/UX elements through various innovative challenges. The participants are requested to upload the previous web/app designs. The event comprises two rounds: an online preliminary round and an offline final round.",
     rules: [
         "   ROUND 1: ONLINE QUALIFIER",
       "Platform: Google Meet",
@@ -318,50 +320,49 @@ export const eventsData = [
     link: "https://forms.gle/mYCsjLjEhC7sef1Y9",
   },
 
-
-
-
-
   {
     id: 8,
-    image: "/Posters/CodeSphere.jpg",
-    name: "CodeSphere",
+    image: "/Posters/CodeTwisters.jpg",
+    name: "Code Twisters",
     eventType:"tech",
     description:
-        "Step into the arena of coding and challenge your programming skills in our thrilling CodeSphere event. This competition is designed to test your problem-solving abilities and coding expertise across three intense rounds.\n",
+      "Code Twisters is a captivating coding competition designed to push your programming limits, foster teamwork, and introduce unique challenges. As part of our department symposium, this event promises a mix of online and offline rounds with intriguing twists to keep you on your toes.",
     rules: [
-        "  ROUND 1: ONLINE QUALIFIER",
-      "Platform: Hackerrank",
-      "Format: Participants will face a series of 15 coding questions that must be completed within an hour.",
-      "Selection: The top 20 teams will advance to the next round, conducted in offline mode.",
+        "  ROUND 1 : ONLINE QUALIFIER",
+        "Platform: Quizizz",
+        "Format: 30 questions covering C, Python, Java",
+        "Type of Questions: Find the error, identify the missing line in the code, etc.",
+        "Duration: Specific time allotted for all 30 questions",
         "---",
-      "   ROUND 2: OFFLINE CHALLENGE",
-      "Challenge: Guess the Code" ,
-      "Teams will be provided with sample inputs and outputs. From these, they are asked to deduce the underlying problem and solve it." ,
-      "Accurately guess the problem statement and provide the correct solution to advance to the final round.",
+        "  ROUND 2 : OFFLINE CHALLENGE",
+        "Platform: HackerRank",
+        "Only one team member codes at a time, for a maximum of 5 minutes.",
+        "The other team member is not allowed to see the code during this time.",
+        "Team members switch roles every 5 minutes.",
+        "The screen will be tilted to add an extra layer of difficulty.",
         "---",
-        "   ROUND 3: ULTIMATE CODING SHUTDOWN",
-        "Challenge: Mystery round",
-        "Rules will be revealed on the spot.",
-        "Teams will face a series of coding challenges that must be completed within a specified time frame.",
-        "---",
-        "---",
-      "Each team must consist of 2 members." ,
-      "Further details and queries will be addressed in the WhatsApp group.",
-      "The judge's decision will be final."
-    ],
+        "  ROUND 3 : ULTIMATE CODING SHOWDOWN",
+        "Only one team member codes at a time, for a maximum of 3 minutes.",
+        "The other team member is not allowed to see the code during this time.",
+        "Team members switch roles every 3 minutes.",
+        "The coding team member will listen to music through headphones while coding.",
+      ],
     prizes: ["1st Prize: ₹1000", "2nd Prize: ₹750", "3rd Prize: ₹500"],
     team: "2 Members",
     fees: "Free",
-    contactInfo: ["Jayasundar : +91 9384354051", "Madhumitha : +91 8838717026"],
+    contactInfo: [
+      "Sabari Srinivas : +91 9003054882",
+      "Saranya: +91 6380336458"
+    ],
     location: "CC4",
     date: "28th August",
     note: [
-      "Prepare your team, hone your coding skills, and get ready for an exhilarating challenge at CodeSphere! Looking forward to seeing your coding prowess in action!",
+      "The team that completes the most tasks correctly in the shortest amount of time will be crowned the Code Twisters champions.",
       "If any kind of trolling, offending, or misbehaving seen by participants will not be tolerated.",
     ],
-    link: "https://forms.gle/MREcNSvd4fNzdhPS7",
+    link: "https://forms.gle/84SvhN4JAdHMANxr7",
   },
+
 
 
 
