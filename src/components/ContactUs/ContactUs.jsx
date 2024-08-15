@@ -28,7 +28,7 @@ const ContactUs = () => {
       message: message,
     };
 
-    emailjs.sendForm('service_tqe9vfe', 'template_4sfsr1w', form, 'p0Xb80wAnkcsHEi-Z')
+    emailjs.sendForm('service_ly6v0fr', 'template_4sfsr1w', form, 'p0Xb80wAnkcsHEi-Z')
       .then(() => {
         console.log('SUCCESS!');
         alert('Email sent successfully.');
